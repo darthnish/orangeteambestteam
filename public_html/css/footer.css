@@ -1,0 +1,11 @@
+.homepage_footer  nav{
+    width: 100vw;
+    height: 50px;
+    background: black;
+    justify-content: flex-end;
+
+}
+
+.homepage_footer img {
+    padding: .3em;
+}

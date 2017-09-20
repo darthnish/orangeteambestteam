@@ -11,3 +11,8 @@ Eg: "main-nav" : This is the css class for the main navigation
 - nav-party : using for only  "party" a tag in navbar
 - nav-compare : using for only  "compare" a tag in navbar
 - nav-a-img : This is for img inside dropdown menu
+
+*footer
+///////////////////////////
+
+- homepage_footer : This class use inside footer on homepage
