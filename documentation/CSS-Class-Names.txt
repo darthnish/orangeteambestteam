@@ -1,3 +1,13 @@
 Please share your class Names here:
 
 Eg: "main-nav" : This is the css class for the main navigation
+
+
+* nav menu
+////////////////////////////
+
+- nav-li : li tag in navbar
+- nav-a : menu each title in navbar
+- nav-party : using for only  "party" a tag in navbar
+- nav-compare : using for only  "compare" a tag in navbar
+- nav-a-img : This is for img inside dropdown menu

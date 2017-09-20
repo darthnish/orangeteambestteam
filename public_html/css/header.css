@@ -1,23 +1,21 @@
-.nav-compare {
-    border: solid white 1px;
-}
+
 .dropdown-menu {
-    padding:0;
-}
-
-.nav-a {
-    font-family: 'Zilla Slab', serif;
-    font-size: 1.3vw;
-}
-
-.nav-a-img {
-    line-height: 6.5vh;
-}
-
-.nav-party {
-    cursor: pointer;
+    padding: 0;
 }
 .nav-li {
     margin-left: .5em;
     margin-right: .5em;
+}
+.nav-a {
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.3vw;
+}
+.nav-party {
+    cursor: pointer;
+}
+.nav-compare {
+    border: solid white 1px;
+}
+.nav-a-img {
+    line-height: 6.5vh;
 }
