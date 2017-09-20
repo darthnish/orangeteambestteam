@@ -15,10 +15,20 @@ body {
 
 .sec-title {
 	font-family: 'Zilla Slab', serif;
-	position: relative;
-}
-
-#province {
-	height:5vh;
 	float:left;
 }
+
+#province, #parties {
+	height:5vh;
+	border:none;
+}
+
+.text {
+	clear:left;
+}
+
+/* Modal Page */
+.title-modal {
+	font-family: 'Zilla Slab', serif;
+}
+
