@@ -35,13 +35,13 @@
             	<h6>FOLLOW US</h6>
                 <p>
                     <div class="innerpage-footer-sns">
-						<a href="#">
+						<a href="facebook.com">
 			  			    	<img src="../img/sns/facebook_black.svg" width="30" height="30" class="d-inline-block align-top" alt="facebook">
 			  				</a>
-			  				<a href="#">
+			  				<a href="twitter.com">
 			  			    	<img src="../img/sns/twitter_black.svg" width="30" height="30" class="d-inline-block align-top" alt="twitter">
 			  				</a>
-			  				<a href="#">
+			  				<a href="instagram.com">
 			  			    	<img src="../img/sns/instagram_black.svg" width="30" height="30" class="d-inline-block align-top" alt="instagram">
 			  				</a>
                     </div>
