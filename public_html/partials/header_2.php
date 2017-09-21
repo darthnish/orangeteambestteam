@@ -1,7 +1,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 		 <a class="navbar-brand" href="#">
-      		<img src="img/logo/logo_white.svg" width="140" height="65" alt="img">
+      		<img src="img/logo/logo_black.svg" width="140" height="65" alt="img">
     	</a>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
 	     <ul class="navbar-nav">

@@ -18,6 +18,7 @@ body {
 	float:left;
 }
 
+<<<<<<< HEAD
 #province, #parties {
 	height:5vh;
 	border:none;
@@ -32,3 +33,15 @@ body {
 	font-family: 'Zilla Slab', serif;
 }
 
+=======
+/* Select Box */
+#province, #parties {
+	height:5vh;
+}
+
+#province {
+	clear:left;
+	margin-left:30px;
+	margin-top:8px;
+}
+>>>>>>> ff905f43d2286b9e5ccbe64267ebc3e4fe84cc58
