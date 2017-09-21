@@ -5,14 +5,20 @@ Eg: "main-nav" : This is the css class for the main navigation
 
 * nav menu
 ////////////////////////////
-
 - nav-li : li tag in navbar
 - nav-a : menu each title in navbar
 - nav-party : using for only  "party" a tag in navbar
 - nav-compare : using for only  "compare" a tag in navbar
 - nav-a-img : This is for img inside dropdown menu
 
-*footer
-///////////////////////////
 
+*footer - homepage
+///////////////////////////
 - homepage_footer : This class use inside footer on homepage
+
+
+*footer - inner page
+///////////////////////////
+- innerpage-footer : footer section i innerpage
+- footer-logo : logo section in inner page footer
+- innerpage-footer-sns : SNS icon section in inner page footer
