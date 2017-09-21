@@ -18,22 +18,6 @@ body {
 	float:left;
 }
 
-<<<<<<< HEAD
-#province, #parties {
-	height:5vh;
-	border:none;
-}
-
-.text {
-	clear:left;
-}
-
-/* Modal Page */
-.title-modal {
-	font-family: 'Zilla Slab', serif;
-}
-
-=======
 /* Select Box */
 #province, #parties {
 	height:5vh;
@@ -44,4 +28,3 @@ body {
 	margin-left:30px;
 	margin-top:8px;
 }
->>>>>>> ff905f43d2286b9e5ccbe64267ebc3e4fe84cc58
