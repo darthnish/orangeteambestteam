@@ -3,15 +3,15 @@
     <!----------- Footer ------------>
     <footer class="footer-bs innerpage-footer">
         <div class="row">
-        	<div class="col-md-5 footer-brand animated fadeInLeft">
+        	<div class="col-md-7 footer-brand animated fadeInLeft">
 				<div class="footer-logo media">
 					<a  href="index.php" class="d-flex mr-3">
-						<img src="../img/logo/logo_black.svg" width="50" height="50" class="d-inline-block align-top" alt="logo">
+						<img src="img/logo/logo_black.svg" width="50" height="50" class="d-inline-block align-top" alt="logo">
 					</a>
 				</div>
                 <p>© Copyright 2017, Group Project By <br>Orange Team. </p>
             </div>
-			<div class="col-md-4 footer-nav animated fadeInUp">
+			<div class="col-md-3 footer-nav animated fadeInUp">
             	<h6>NAVIGATION</h6>
 				<div class="row">
 	            	<div class="col-md-6">
@@ -31,18 +31,18 @@
 	                </div>
 				</div>
             </div>
-        	<div class="col-md-3 footer-ns animated fadeInRight">
+        	<div class="col-md-2 footer-ns animated fadeInRight">
             	<h6>FOLLOW US</h6>
                 <p>
                     <div class="innerpage-footer-sns">
 						<a href="facebook.com">
-			  			    	<img src="../img/sns/facebook_black.svg" width="30" height="30" class="d-inline-block align-top" alt="facebook">
+			  			    	<img src="img/sns/facebook_black.svg" width="30" height="30" class="d-inline-block align-top" alt="facebook">
 			  				</a>
 			  				<a href="twitter.com">
-			  			    	<img src="../img/sns/twitter_black.svg" width="30" height="30" class="d-inline-block align-top" alt="twitter">
+			  			    	<img src="img/sns/twitter_black.svg" width="30" height="30" class="d-inline-block align-top" alt="twitter">
 			  				</a>
 			  				<a href="instagram.com">
-			  			    	<img src="../img/sns/instagram_black.svg" width="30" height="30" class="d-inline-block align-top" alt="instagram">
+			  			    	<img src="img/sns/instagram_black.svg" width="30" height="30" class="d-inline-block align-top" alt="instagram">
 			  				</a>
                     </div>
                  </p>
