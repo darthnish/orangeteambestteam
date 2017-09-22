@@ -9,8 +9,8 @@ body {
   -webkit-font-smoothing: antialiased; }
 
 .container-fluid {
-  padding-right: 28px;
-  padding-left: 28px; }
+  padding-right: 20px;
+  padding-left: 20px; }
 
 .nav-bar--party {
   border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
@@ -22,11 +22,11 @@ body {
   font-weight: 700; }
 
 .section-heading {
-  font-size: 2.1rem;
+  font-size: 2rem;
   color: #000;
   font-weight: 600;
   font-family: "Zilla Slab", serif;
-  margin-bottom: 60px; }
+  margin-bottom: 65px; }
 
 .card-heading {
   font-size: 1.3rem;
@@ -34,9 +34,28 @@ body {
   font-family: "Zilla Slab", serif;
   margin-bottom: 23px; }
 
+.section-small-heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: "Zilla Slab", serif;
+  margin-bottom: 78px;
+  margin-right: 45px; }
+
+.party-history__history-heading {
+  font-size: 1.18rem;
+  font-weight: 600;
+  width: 60%;
+  margin-bottom: 13px; }
+
 .color--liberal {
   color: #D71920;
   fill: #D71920; }
+
+.border-right--liberal {
+  border-right: 1.5px solid #D71920; }
+
+.background--liberal {
+  background-color: #D71920; }
 
 /*HERO SECTION*/
 .parties-hero {
@@ -119,40 +138,40 @@ body {
   margin-top: 90px; }
 
 .party-policies {
-  width: 75%; }
+  flex-basis: 75%; }
 
-@media (max-width: 1199px) {
+@media (max-width: 1800px) {
   .party-policies {
-    width: 67%; } }
+    flex-basis: 65%; } }
 
 @media (max-width: 991px) {
   .party-policies {
-    width: 100%; } }
+    flex-basis: 50%; } }
 
 .party-policies__party-cards {
   margin-top: 55px; }
 
 .no-gutters > .policy {
-  padding-right: 45px;
-  margin-bottom: 50px; }
+  padding-right: 40px;
+  margin-bottom: 45px; }
 
 .policy {
   flex-grow: 0;
   flex-basis: 440px;
   min-height: 270px; }
 
-@media (max-width: 1700px) {
+@media (max-width: 1800px) {
   .policy {
     flex-basis: 50%; } }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .policy {
     flex-basis: 100%; } }
 
 .policy__card {
   width: 100%;
   height: 100%;
-  padding: 45px 25px;
+  padding: 45px 20px;
   border: 1px solid #D71920; }
 
 .card__icn {
@@ -163,3 +182,62 @@ body {
 
 .card__icn--new {
   width: 21px; }
+
+.party-history {
+  flex-grow: 1;
+  width: 25%; }
+
+@media (max-width: 1800px) {
+  .party-history {
+    width: 30%; } }
+
+@media (max-width: 991px) {
+  .party-history {
+    width: 50%; } }
+
+.party-history__content {
+  width: 100%;
+  padding: 30px 75px 0 0;
+  position: relative; }
+
+.history-border {
+  height: 100%;
+  width: 2px;
+  z-index: -3;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translate(50px);
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  position: absolute; }
+
+.party-history__paragraph {
+  width: 60%;
+  position: relative; }
+
+.party-history__year {
+  position: absolute;
+  width: 73px;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translate(117px);
+  margin-left: auto;
+  margin-right: auto; }
+
+.party-history__bit {
+  position: relative;
+  margin-bottom: 75px; }
+
+.party-history__marker {
+  width: 14px;
+  margin-top: 5px;
+  margin-right: 10px;
+  height: 14px;
+  border-radius: 50%; }
+
+.party-history__date {
+  font-weight: 700;
+  margin-left: 7px; }

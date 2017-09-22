@@ -95,10 +95,10 @@
         </div>
     </div>
 </div>
-<main class="container-fluid container--party_page d-flex">
+<main class="container-fluid container--party_page d-flex justify-content-between">
     <section class="party-policies">
     <h1 class="section-heading">Party Policies</h1>
-    <div class="row d-flex flex-wrap no-gutters party-policies__policys">
+    <div class="row d-flex flex-wrap no-gutters">
         <div class="col policy">
             <div class="policy__card d-flex flex-column">
                 <div class="card__header d-flex flex-row">
@@ -174,7 +174,54 @@
             </div>
         </div>
     </div>
-    <section>
+    </section>
+    <section class="party-history">
+        <div class="party-history__content">
+            <h4 class="section-small-heading text-center">History</h4>
+            <div class="history-border border-right--liberal"></div>
+            <div class="party-history__bit">
+                <div class="party-history__year d-flex align-content-center">
+                    <div class="party-history__marker background--liberal"></div>
+                    <p class="party-history__date">2015</p>
+                </div>
+                <h5 class="party-history__history-heading">Trudeau Leads</h5>
+                <p class="party-history__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom.</p>
+            </div>
+            <div class="party-history__bit">
+                <div class="party-history__year d-flex align-content-center">
+                    <div class="party-history__marker background--liberal"></div>
+                    <p class="party-history__date">2015</p>
+                </div>
+                <h5 class="party-history__history-heading">Trailing The Conservatives</h5>
+                <p class="party-history__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom.</p>
+            </div>
+            <div class="party-history__bit">
+                <div class="party-history__year d-flex align-content-center">
+                    <div class="party-history__marker background--liberal"></div>
+                    <p class="party-history__date">2015</p>
+                </div>
+                <h5 class="party-history__history-heading">Trailing The Conservatives</h5>
+                <p class="party-history__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom.</p>
+            </div>
+            <div class="party-history__bit">
+                <div class="party-history__year d-flex align-content-center">
+                    <div class="party-history__marker background--liberal"></div>
+                    <p class="party-history__date">2015</p>
+                </div>
+                <h5 class="party-history__history-heading">Trailing The Conservatives</h5>
+                <p class="party-history__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom.</p>
+            </div>
+            <div class="party-history__bit">
+                <div class="party-history__year d-flex align-content-center">
+                    <div class="party-history__marker background--liberal"></div>
+                    <p class="party-history__date">2015</p>
+                </div>
+                <h5 class="party-history__history-heading">Trailing The Conservatives</h5>
+                <p class="party-history__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom.</p>
+            </div>
+        </div>
+    </section>
+
 </main>
 </body>
 </html>
