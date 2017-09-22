@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MemberOfParliament>
+    <PersonShortHonorific>Hon.</PersonShortHonorific>
+    <PersonOfficialFirstName>Judy</PersonOfficialFirstName>
+    <PersonOfficialLastName>Foote</PersonOfficialLastName>
+    <ConstituencyName>Bonavista—Burin—Trinity</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Newfoundland and Labrador</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Gudie</PersonOfficialFirstName>
+    <PersonOfficialLastName>Hutchings</PersonOfficialLastName>
+    <ConstituencyName>Long Range Mountains</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Newfoundland and Labrador</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Yvonne</PersonOfficialFirstName>
+    <PersonOfficialLastName>Jones</PersonOfficialLastName>
+    <ConstituencyName>Labrador</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Newfoundland and Labrador</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Ken</PersonOfficialFirstName>
+    <PersonOfficialLastName>McDonald</PersonOfficialLastName>
+    <ConstituencyName>Avalon</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Newfoundland and Labrador</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific>Hon.</PersonShortHonorific>
+    <PersonOfficialFirstName>Seamus</PersonOfficialFirstName>
+    <PersonOfficialLastName>O'Regan</PersonOfficialLastName>
+    <ConstituencyName>St. John's South—Mount Pearl</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Newfoundland and Labrador</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Scott</PersonOfficialFirstName>
+    <PersonOfficialLastName>Simms</PersonOfficialLastName>
+    <ConstituencyName>Coast of Bays—Central—Notre Dame</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Newfoundland and Labrador</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Nick</PersonOfficialFirstName>
+    <PersonOfficialLastName>Whalen</PersonOfficialLastName>
+    <ConstituencyName>St. John's East</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Newfoundland and Labrador</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+</List>

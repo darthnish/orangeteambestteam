@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Sean</PersonOfficialFirstName>
+    <PersonOfficialLastName>Casey</PersonOfficialLastName>
+    <ConstituencyName>Charlottetown</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Prince Edward Island</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific>Hon.</PersonShortHonorific>
+    <PersonOfficialFirstName>Wayne</PersonOfficialFirstName>
+    <PersonOfficialLastName>Easter</PersonOfficialLastName>
+    <ConstituencyName>Malpeque</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Prince Edward Island</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific>Hon.</PersonShortHonorific>
+    <PersonOfficialFirstName>Lawrence</PersonOfficialFirstName>
+    <PersonOfficialLastName>MacAulay</PersonOfficialLastName>
+    <ConstituencyName>Cardigan</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Prince Edward Island</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Robert</PersonOfficialFirstName>
+    <PersonOfficialLastName>Morrissey</PersonOfficialLastName>
+    <ConstituencyName>Egmont</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Prince Edward Island</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+</List>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Michael</PersonOfficialFirstName>
+    <PersonOfficialLastName>McLeod</PersonOfficialLastName>
+    <ConstituencyName>Northwest Territories</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Northwest Territories</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+</List>

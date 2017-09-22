@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Ziad</PersonOfficialFirstName>
+    <PersonOfficialLastName>Aboultaif</PersonOfficialLastName>
+    <ConstituencyName>Edmonton Manning</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>John</PersonOfficialFirstName>
+    <PersonOfficialLastName>Barlow</PersonOfficialLastName>
+    <ConstituencyName>Foothills</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Bob</PersonOfficialFirstName>
+    <PersonOfficialLastName>Benzen</PersonOfficialLastName>
+    <ConstituencyName>Calgary Heritage</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2017-04-03T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Randy</PersonOfficialFirstName>
+    <PersonOfficialLastName>Boissonnault</PersonOfficialLastName>
+    <ConstituencyName>Edmonton Centre</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Blaine</PersonOfficialFirstName>
+    <PersonOfficialLastName>Calkins</PersonOfficialLastName>
+    <ConstituencyName>Red Deer—Lacombe</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Michael</PersonOfficialFirstName>
+    <PersonOfficialLastName>Cooper</PersonOfficialLastName>
+    <ConstituencyName>St. Albert—Edmonton</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Kerry</PersonOfficialFirstName>
+    <PersonOfficialLastName>Diotte</PersonOfficialLastName>
+    <ConstituencyName>Edmonton Griesbach</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Earl</PersonOfficialFirstName>
+    <PersonOfficialLastName>Dreeshen</PersonOfficialLastName>
+    <ConstituencyName>Red Deer—Mountain View</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Linda</PersonOfficialFirstName>
+    <PersonOfficialLastName>Duncan</PersonOfficialLastName>
+    <ConstituencyName>Edmonton Strathcona</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>NDP</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Jim</PersonOfficialFirstName>
+    <PersonOfficialLastName>Eglinski</PersonOfficialLastName>
+    <ConstituencyName>Yellowhead</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Garnett</PersonOfficialFirstName>
+    <PersonOfficialLastName>Genuis</PersonOfficialLastName>
+    <ConstituencyName>Sherwood Park—Fort Saskatchewan</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Rachael</PersonOfficialFirstName>
+    <PersonOfficialLastName>Harder</PersonOfficialLastName>
+    <ConstituencyName>Lethbridge</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific>Hon.</PersonShortHonorific>
+    <PersonOfficialFirstName>Kent</PersonOfficialFirstName>
+    <PersonOfficialLastName>Hehr</PersonOfficialLastName>
+    <ConstituencyName>Calgary Centre</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Matt</PersonOfficialFirstName>
+    <PersonOfficialLastName>Jeneroux</PersonOfficialLastName>
+    <ConstituencyName>Edmonton Riverbend</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Darshan Singh</PersonOfficialFirstName>
+    <PersonOfficialLastName>Kang</PersonOfficialLastName>
+    <ConstituencyName>Calgary Skyview</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Independent</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Pat</PersonOfficialFirstName>
+    <PersonOfficialLastName>Kelly</PersonOfficialLastName>
+    <ConstituencyName>Calgary Rocky Ridge</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Tom</PersonOfficialFirstName>
+    <PersonOfficialLastName>Kmiec</PersonOfficialLastName>
+    <ConstituencyName>Calgary Shepard</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Stephanie</PersonOfficialFirstName>
+    <PersonOfficialLastName>Kusie</PersonOfficialLastName>
+    <ConstituencyName>Calgary Midnapore</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2017-04-03T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific>Hon.</PersonShortHonorific>
+    <PersonOfficialFirstName>Mike</PersonOfficialFirstName>
+    <PersonOfficialLastName>Lake</PersonOfficialLastName>
+    <ConstituencyName>Edmonton—Wetaskiwin</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Ron</PersonOfficialFirstName>
+    <PersonOfficialLastName>Liepert</PersonOfficialLastName>
+    <ConstituencyName>Calgary Signal Hill</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Kelly</PersonOfficialFirstName>
+    <PersonOfficialLastName>McCauley</PersonOfficialLastName>
+    <ConstituencyName>Edmonton West</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Glen</PersonOfficialFirstName>
+    <PersonOfficialLastName>Motz</PersonOfficialLastName>
+    <ConstituencyName>Medicine Hat—Cardston—Warner</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2016-10-24T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific>Hon.</PersonShortHonorific>
+    <PersonOfficialFirstName>Deepak</PersonOfficialFirstName>
+    <PersonOfficialLastName>Obhrai</PersonOfficialLastName>
+    <ConstituencyName>Calgary Forest Lawn</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific>Hon.</PersonShortHonorific>
+    <PersonOfficialFirstName>Michelle</PersonOfficialFirstName>
+    <PersonOfficialLastName>Rempel</PersonOfficialLastName>
+    <ConstituencyName>Calgary Nose Hill</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Blake</PersonOfficialFirstName>
+    <PersonOfficialLastName>Richards</PersonOfficialLastName>
+    <ConstituencyName>Banff—Airdrie</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Martin</PersonOfficialFirstName>
+    <PersonOfficialLastName>Shields</PersonOfficialLastName>
+    <ConstituencyName>Bow River</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific>Hon.</PersonShortHonorific>
+    <PersonOfficialFirstName>Amarjeet</PersonOfficialFirstName>
+    <PersonOfficialLastName>Sohi</PersonOfficialLastName>
+    <ConstituencyName>Edmonton Mill Woods</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific>Hon.</PersonShortHonorific>
+    <PersonOfficialFirstName>Kevin</PersonOfficialFirstName>
+    <PersonOfficialLastName>Sorenson</PersonOfficialLastName>
+    <ConstituencyName>Battle River—Crowfoot</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Shannon</PersonOfficialFirstName>
+    <PersonOfficialLastName>Stubbs</PersonOfficialLastName>
+    <ConstituencyName>Lakeland</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Arnold</PersonOfficialFirstName>
+    <PersonOfficialLastName>Viersen</PersonOfficialLastName>
+    <ConstituencyName>Peace River—Westlock</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Chris</PersonOfficialFirstName>
+    <PersonOfficialLastName>Warkentin</PersonOfficialLastName>
+    <ConstituencyName>Grande Prairie—Mackenzie</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Len</PersonOfficialFirstName>
+    <PersonOfficialLastName>Webber</PersonOfficialLastName>
+    <ConstituencyName>Calgary Confederation</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>David</PersonOfficialFirstName>
+    <PersonOfficialLastName>Yurdiga</PersonOfficialLastName>
+    <ConstituencyName>Fort McMurray—Cold Lake</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Alberta</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+</List>

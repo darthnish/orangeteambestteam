@@ -57,11 +57,9 @@
 		<?php include 'partials/footer.php' ?>	
 
 		<!--Modal Box-->
-		<div class="row">
-			<div class="">
-				<h1 class="title-modal">Current MP in</h1>				
-			</div>
-			<div class="">
+		<div class="container-fluid">
+			<h1 class="title-modal">Current MP in</h1>				
+			<div class="modal-select">
 				<select name="parties" id="parties">
 					<option value="all parties">All Parties</option>
 					<option value="Lireral">Lireral</option>
@@ -69,8 +67,20 @@
 					<option value="Conservative">Conservative</option>
 					<option value="Green">Green</option>
 				</select>			
-			</div>			
+			</div>
 		</div>
+
+		<div class="row">
+			<div class="col-md-3">
+				<h4>Name</h4>
+				<img src="" alt="">
+				<div class="line"></div>
+				<p>Parties</p>
+				<p>Churchill - Keewainook Aski Manitoba</p>
+			</div>
+		</div>
+
+		<!-- End of container-fluid -->		
 
 	</body>
 </html>

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>David</PersonOfficialFirstName>
+    <PersonOfficialLastName>Anderson</PersonOfficialLastName>
+    <ConstituencyName>Cypress Hills—Grasslands</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Sheri</PersonOfficialFirstName>
+    <PersonOfficialLastName>Benson</PersonOfficialLastName>
+    <ConstituencyName>Saskatoon West</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>NDP</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Kelly</PersonOfficialFirstName>
+    <PersonOfficialLastName>Block</PersonOfficialLastName>
+    <ConstituencyName>Carlton Trail—Eagle Creek</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific>Hon.</PersonShortHonorific>
+    <PersonOfficialFirstName>Ralph</PersonOfficialFirstName>
+    <PersonOfficialLastName>Goodale</PersonOfficialLastName>
+    <ConstituencyName>Regina—Wascana</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Liberal</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Randy</PersonOfficialFirstName>
+    <PersonOfficialLastName>Hoback</PersonOfficialLastName>
+    <ConstituencyName>Prince Albert</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Georgina</PersonOfficialFirstName>
+    <PersonOfficialLastName>Jolibois</PersonOfficialLastName>
+    <ConstituencyName>Desnethé—Missinippi—Churchill River</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>NDP</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Robert</PersonOfficialFirstName>
+    <PersonOfficialLastName>Kitchen</PersonOfficialLastName>
+    <ConstituencyName>Souris—Moose Mountain</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Tom</PersonOfficialFirstName>
+    <PersonOfficialLastName>Lukiwski</PersonOfficialLastName>
+    <ConstituencyName>Moose Jaw—Lake Centre—Lanigan</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific>Hon.</PersonShortHonorific>
+    <PersonOfficialFirstName>Gerry</PersonOfficialFirstName>
+    <PersonOfficialLastName>Ritz</PersonOfficialLastName>
+    <ConstituencyName>Battlefords—Lloydminster</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Andrew</PersonOfficialFirstName>
+    <PersonOfficialLastName>Scheer</PersonOfficialLastName>
+    <ConstituencyName>Regina—Qu'Appelle</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Brad</PersonOfficialFirstName>
+    <PersonOfficialLastName>Trost</PersonOfficialLastName>
+    <ConstituencyName>Saskatoon—University</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Cathay</PersonOfficialFirstName>
+    <PersonOfficialLastName>Wagantall</PersonOfficialLastName>
+    <ConstituencyName>Yorkton—Melville</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Kevin</PersonOfficialFirstName>
+    <PersonOfficialLastName>Waugh</PersonOfficialLastName>
+    <ConstituencyName>Saskatoon—Grasswood</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>Conservative</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+  <MemberOfParliament>
+    <PersonShortHonorific />
+    <PersonOfficialFirstName>Erin</PersonOfficialFirstName>
+    <PersonOfficialLastName>Weir</PersonOfficialLastName>
+    <ConstituencyName>Regina—Lewvan</ConstituencyName>
+    <ConstituencyProvinceTerritoryName>Saskatchewan</ConstituencyProvinceTerritoryName>
+    <CaucusShortName>NDP</CaucusShortName>
+    <FromDateTime>2015-10-19T00:00:00</FromDateTime>
+    <ToDateTime xsi:nil="true" />
+  </MemberOfParliament>
+</List>
