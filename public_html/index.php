@@ -21,13 +21,13 @@
     <div class="container-fluid bg-video">
          <div class="row">
              <div class="col-md-12">
-                 <video src="videos/liberal.mp4" class="vid" muted autoplay></video>
+                 <video src="videos/liberal.mp4" class="vid" muted autoplay loop></video>
              </div>
          </div>
     </div>
     <div class="container-fluid ">
         <div class="row no-pad">
-           <div class="col-md-3 fill">
+           <div class="col-md-3 fill party">
                <div class="overlay liberal">
                    <div class="main-content">
                         <img class ="party-logo" src ="img/logo/liberal_white.svg" alt="Liberal Party">
@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 fill">
+            <div class="col-md-3 fill party">
                 <div class="overlay conservative">
                    <div class="main-content">
                         <img class ="party-logo" src ="img/logo/conservative_white.png" alt="Liberal Party">
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 fill">
+            <div class="col-md-3 fill party">
                 <div class="overlay green-party">
                    <div class="main-content ">
                         <img class ="party-logo" src ="img/logo/green_white.svg" alt="Liberal Party">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 fill">
+            <div class="col-md-3 fill party">
                 <div class="overlay ndp">
                    <div class="main-content">
                         <img class ="party-logo" src ="img/logo/ndp_white.svg" alt="Liberal Party">
