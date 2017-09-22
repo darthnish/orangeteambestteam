@@ -5,43 +5,28 @@
 		<title>Who's my MP</title>
 		<!-- Google fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Zilla+Slab:400,500,500i,600,700" rel="stylesheet">
-		<!-- Custom CSS -->
+		<!-- CSS -->
 		<link rel="stylesheet" href="css/mp.css">
 		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/footer.css">
-		<!-- Bootstrap CSS-->
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.css">
 		<link rel="stylesheet" href="css/bootstrap-reboot.css">
-		<!-- Bootstrap JS-->
+		<!-- JS-->
 		<link rel="stylesheet" href="js/bootstrap.js">
-		<link rel="stylesheet" href="js/main.js">	
+		<link rel="stylesheet" href="js/main.js">
+		<link rel="stylesheet" href="js/mp.js">
 	</head>
 
-	<?php include 'partials/header_2.php' ?>
-
 	<body>
-		<div class="row">
-			<div class="offset-xs-1 col-xs-11">
-				<h1 class="title">Who's My MP</h1>
-			</div>
-		</div>
-		<div class="container">
-  <div class="row">
-    <!-- <div class="col align-self-start">
-      One of three columns
-    </div> -->
-    <div class="col align-self-center">
-      One of three columns
-    </div>
-    <div class="col align-self-end">
-      One of three columns
-    </div>
-  </div>
-</div>
-		<div class="container">
-			<div class="row">
-				<div class="col align-self-center">
+		<?php include 'partials/header_2.php' ?>
+		
+		<div class="container-fluid container-fluid--mp">
+
+			<h1 class="title">Who's My MP</h1>
+
+			<div class="mp-select">
+				<div class="d-flex justify-content-center">
 					<h1 class="sec-title">Select Your</h1>
 					<select name="province" id="province">
 						<option value="Province">Province</option>
@@ -56,17 +41,18 @@
 						<option value="New Brunswick">New Brunswick</option>
 						<option value="Prince Edward Island">Prince Edward Island</option>
 					</select>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col align-self-center">
+				</div>	
+				<div class="d-flex justify-content-center">	
 					<p class="text">Click on the map and see your Member of Parlement</p>
 				</div>
 			</div>
+
+			<div class="test" style="width: 500px">
+				<?php include 'partials/map.html' ?>
+			</div>
+
 		</div>
-		
+		<!-- End of container-fluid -->	
 
 		<?php include 'partials/footer.php' ?>	
 
@@ -85,5 +71,6 @@
 				</select>			
 			</div>			
 		</div>
+
 	</body>
 </html>
