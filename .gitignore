@@ -1,3 +1,4 @@
 config.codekit3
 /.idea
-.DS_Store
+public_html/.DS_Store
+/.DS_Store

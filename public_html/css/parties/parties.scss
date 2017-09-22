@@ -1,13 +1,15 @@
 //VARIABLES
 
 $white: #fff;
+$black: #000;
 $liberalRed: #D71920;
 
 
-$is-h1-font:'Zilla Slab Highlight', cursive;
+$is-h1-font:'Zilla Slab Highlight', serif;
+$is-h2-font:'Zilla Slab', serif;
 $is-body-font:'Lato', sans-serif;
 
-$is-body-size: 0.9375rem;
+$is-body-size: 1rem;
 
 
 @mixin body-type(){
@@ -30,6 +32,11 @@ body{
     @include body-type();
 }
 
+.container-fluid{
+    padding-right: 28px;
+    padding-left: 28px;
+}
+
 .nav-bar--party{
     border-bottom:1px solid rgba(255, 255, 255, 0.25);
 }
@@ -37,8 +44,30 @@ body{
     font-size:2.7rem;
     font-family:$is-h1-font;
     color: $white;
-    font-weight: bold;
+    font-weight: 700;
 }
+
+.section-heading{
+    font-size: 2.1rem;
+    color: $black;
+    font-weight: 600;
+    font-family:$is-h2-font;
+    margin-bottom: 60px;
+}
+
+.card-heading{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family:$is-h2-font;
+    margin-bottom: 23px;
+}
+
+.color--liberal{
+    color:$liberalRed;
+    fill: $liberalRed;
+}
+
+
 
 /*HERO SECTION*/
 .parties-hero {
@@ -58,8 +87,8 @@ body{
 }
 
 .parties-information{
-    margin-top: 21vw;
-    margin-bottom:50px;
+    margin-top: 19vw;
+    margin-bottom:60px;
     max-width:100%;
 }
 
@@ -118,14 +147,17 @@ body{
     }
 
     .party-status--social{
-        margin-left: 40px;
+        margin-left: 35px;
     }
 }
 
 .member-cal{
-    background:$liberalRed;
     width: 50%;
     height: 100%;
+}
+
+.member-cal--liberal{
+    background:$liberalRed;
 }
 
 .member-cal__number{
@@ -135,6 +167,68 @@ body{
     font-size:0.875rem;
 }
 
+.container--party_page{
+    margin-top:90px;
+}
+
+.party-policies{
+    width: 75%;
+}
+
+@media (max-width: 1199px) {
+    .party-policies{
+        width: 67%;
+    }
+}
+@media (max-width: 991px) {
+    .party-policies{
+        width: 100%;
+    }
+}
+
+.party-policies__party-cards{
+   margin-top:55px;
+}
+
+
+.no-gutters>.policy{
+    padding-right: 45px;
+    margin-bottom: 50px;
+}
+
+.policy{
+    flex-grow: 0;
+    flex-basis: 440px;
+    min-height: 270px;
+}
+
+@media (max-width: 1700px) {
+    .policy{
+        flex-basis: 50%;
+    }
+}
+@media (max-width: 767px) {
+    .policy{
+        flex-basis: 100%;
+    }
+}
+
+.policy__card{
+    width: 100%;
+    height: 100%;
+    padding: 45px 25px;
+    border: 1px solid $liberalRed;
+}
+
+.card__icn{
+    margin: -0.5px 16px 0 0;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+}
+.card__icn--new{
+    width: 21px;
+}
 
 
 

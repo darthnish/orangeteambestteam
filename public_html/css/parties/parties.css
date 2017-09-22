@@ -5,17 +5,38 @@
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   -webkit-font-smoothing: antialiased; }
+
+.container-fluid {
+  padding-right: 28px;
+  padding-left: 28px; }
 
 .nav-bar--party {
   border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
 
 .page-heading {
   font-size: 2.7rem;
-  font-family: "Zilla Slab Highlight", cursive;
+  font-family: "Zilla Slab Highlight", serif;
   color: #fff;
-  font-weight: bold; }
+  font-weight: 700; }
+
+.section-heading {
+  font-size: 2.1rem;
+  color: #000;
+  font-weight: 600;
+  font-family: "Zilla Slab", serif;
+  margin-bottom: 60px; }
+
+.card-heading {
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Zilla Slab", serif;
+  margin-bottom: 23px; }
+
+.color--liberal {
+  color: #D71920;
+  fill: #D71920; }
 
 /*HERO SECTION*/
 .parties-hero {
@@ -32,8 +53,8 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/parties/liberals_hero.jpg"); } }
 
 .parties-information {
-  margin-top: 21vw;
-  margin-bottom: 50px;
+  margin-top: 19vw;
+  margin-bottom: 60px;
   max-width: 100%; }
 
 .parties-information__description {
@@ -79,15 +100,66 @@ body {
     width: 80%;
     max-width: 600px; }
   .party-status--social {
-    margin-left: 40px; } }
+    margin-left: 35px; } }
 
 .member-cal {
-  background: #D71920;
   width: 50%;
   height: 100%; }
+
+.member-cal--liberal {
+  background: #D71920; }
 
 .member-cal__number {
   font-weight: 800;
   margin-top: -2px;
   margin-right: 10px;
   font-size: 0.875rem; }
+
+.container--party_page {
+  margin-top: 90px; }
+
+.party-policies {
+  width: 75%; }
+
+@media (max-width: 1199px) {
+  .party-policies {
+    width: 67%; } }
+
+@media (max-width: 991px) {
+  .party-policies {
+    width: 100%; } }
+
+.party-policies__party-cards {
+  margin-top: 55px; }
+
+.no-gutters > .policy {
+  padding-right: 45px;
+  margin-bottom: 50px; }
+
+.policy {
+  flex-grow: 0;
+  flex-basis: 440px;
+  min-height: 270px; }
+
+@media (max-width: 1700px) {
+  .policy {
+    flex-basis: 50%; } }
+
+@media (max-width: 767px) {
+  .policy {
+    flex-basis: 100%; } }
+
+.policy__card {
+  width: 100%;
+  height: 100%;
+  padding: 45px 25px;
+  border: 1px solid #D71920; }
+
+.card__icn {
+  margin: -0.5px 16px 0 0;
+  width: 24px;
+  height: 24px;
+  background-size: contain; }
+
+.card__icn--new {
+  width: 21px; }
