@@ -1,0 +1,93 @@
+/*TEMP*/
+.temp-size {
+  font-size: 1rem !important; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  -webkit-font-smoothing: antialiased; }
+
+.nav-bar--party {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25); }
+
+.page-heading {
+  font-size: 2.7rem;
+  font-family: "Zilla Slab Highlight", cursive;
+  color: #fff;
+  font-weight: bold; }
+
+/*HERO SECTION*/
+.parties-hero {
+  width: 100%; }
+
+.parties-hero--liberal {
+  background-image: url("../../img/parties/liberals_hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+@media (max-width: 767px) {
+  .parties-hero--liberal {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/parties/liberals_hero.jpg"); } }
+
+.parties-information {
+  margin-top: 21vw;
+  margin-bottom: 50px;
+  max-width: 100%; }
+
+.parties-information__description {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 25px;
+  max-width: 60%; }
+
+.parties-information__status {
+  max-width: 980px;
+  width: 100%; }
+
+.party-status {
+  margin-top: 30px;
+  color: #fff;
+  margin-bottom: 0; }
+
+.party-status__heading {
+  font-size: 0.75rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-transform: uppercase; }
+
+.party-status__p {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: 0; }
+
+.party-social-icn {
+  margin-right: 18px; }
+
+.party-status__bar {
+  width: 300px;
+  height: 24px;
+  background: rgba(54, 54, 54, 0.6); }
+
+@media (max-width: 991px) {
+  .party-status__bar {
+    width: 100%; } }
+
+@media (max-width: 767px) {
+  .party-status--members {
+    width: 80%;
+    max-width: 600px; }
+  .party-status--social {
+    margin-left: 40px; } }
+
+.member-cal {
+  background: #D71920;
+  width: 50%;
+  height: 100%; }
+
+.member-cal__number {
+  font-weight: 800;
+  margin-top: -2px;
+  margin-right: 10px;
+  font-size: 0.875rem; }
