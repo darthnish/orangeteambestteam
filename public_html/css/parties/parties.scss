@@ -1,5 +1,4 @@
 //VARIABLES
-
 $white: #fff;
 $black: #000;
 $liberalRed: #D71920;
@@ -48,7 +47,7 @@ body{
 }
 
 .section-heading{
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: $black;
     font-weight: 600;
     font-family:$is-h2-font;
@@ -103,6 +102,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
+
 @media (max-width: 767px) {
     .parties-hero--liberal {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/parties/liberals_hero.jpg");
@@ -157,22 +157,7 @@ body{
     background: rgba(54, 54, 54, 0.6);
 }
 
-@media (max-width: 991px) {
-    .party-status__bar {
-        width: 100%;
-    }
-}
 
-@media (max-width: 767px) {
-    .party-status--members{
-        width: 80%;
-        max-width: 600px;
-    }
-
-    .party-status--social{
-        margin-left: 35px;
-    }
-}
 
 .member-cal{
     width: 50%;
@@ -196,18 +181,7 @@ body{
 
 .party-policies{
     flex-basis: 75%;
-}
-
-@media (max-width: 1800px) {
-    .party-policies{
-        flex-basis: 65%;
-    }
-
-}
-@media (max-width: 991px) {
-    .party-policies{
-        flex-basis: 50%;
-    }
+    margin-bottom: 60px;
 }
 
 .party-policies__party-cards{
@@ -215,7 +189,7 @@ body{
 }
 
 
-.no-gutters>.policy{
+.no-gutters>.policy,.no-gutters>.members{
     padding-right: 40px;
     margin-bottom: 45px;
 }
@@ -224,18 +198,6 @@ body{
     flex-grow: 0;
     flex-basis: 440px;
     min-height: 270px;
-}
-
-@media (max-width: 1800px) {
-    .policy{
-        flex-basis: 50%;
-    }
-}
-
-@media (max-width: 991px) {
-    .policy{
-        flex-basis: 100%;
-    }
 }
 
 .policy__card{
@@ -258,21 +220,8 @@ body{
 .party-history{
     flex-grow: 1;
     width: 25%;
-
+    margin-bottom: 60px;
 }
-
-@media (max-width: 1800px) {
-    .party-history{
-        width: 30%;
-    }
-
-}
-@media (max-width: 991px) {
-    .party-history{
-        width: 50%;
-    }
-}
-
 
 .party-history__content{
     width: 100%;
@@ -328,6 +277,223 @@ body{
 .party-history__date{
     font-weight: 700;
     margin-left: 7px;
+}
+
+.party-member{
+    height: 40vw;
+}
+
+.members{
+    flex-grow: 0;
+    flex-basis: 31%;
+    height: 500px;
+    position: relative;
+}
+
+.members__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.members__plate{
+    position: absolute;
+    padding:0 20px;
+    bottom:40px;
+    display: inline-block;
+}
+
+.members-name{
+    font-size: 1.5vw;
+    font-weight: 600;
+    color:#fff;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 14px 17px;
+    font-family: $is-h2-font;
+}
+
+.members-pm{
+    font-style: italic;
+    font-size: 1vw;
+    padding: 10px 17px 14px 17px;
+    display: inline-block;
+
+}
+
+.members-title{
+    font-family: $is-body-font;
+    font-size: 0.95vw;
+    font-weight: 600;
+    display: inline-block;
+    margin: 15px 0 0 0;
+    font-style: italic;
+
+}
+
+.party-history__history-heading{
+
+    width: 60%;
+    margin-bottom: 13px;
+}
+
+.no-gutters>.members{
+    padding-right: 45px;
+    margin-bottom: 45px;
+}
+
+
+
+@media (max-width: 1400px) {
+    .members {
+        height: 400px;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .party-status__bar {
+        width: 100%;
+    }
+
+    .members{
+        flex-grow: 0;
+        flex-basis: 48%;
+        height: 300px;
+        position: relative;
+    }
+
+    .members-name{
+        font-size: 2.5vw;
+    }
+
+    .members-pm{
+        font-style: italic;
+        font-size: 1.7vw;
+
+    }
+
+    .members-title{
+        font-size: 1.4vw;
+        max-width: 400px;
+
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    .party-status--members{
+        width: 80%;
+        max-width: 600px;
+    }
+
+    .party-status--social{
+        margin-left: 35px;
+    }
+}
+
+@media (max-width: 1800px) {
+    .party-policies{
+        flex-basis: 65%;
+    }
+
+}
+@media (max-width: 991px) {
+    .party-policies{
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 1800px) {
+    .policy{
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 991px) {
+    .policy{
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 1800px) {
+    .party-history {
+        width: 30%;
+    }
+
+    .party-history__paragraph {
+        width: 50%;
+        padding: 0 0 30px 0;
+    }
+    .party-history__history-heading,.party-history__paragraph{
+        margin-left: 80px;
+    }
+
+    .party-history__history-heading {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 991px) {
+    .party-history{
+        width: 50%;
+    }
+}
+
+@media (min-width: 1990px) and (max-width: 2546px){
+    .party-policies{
+        max-width: 1500px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .party-history{
+        width: 100%;
+
+    }
+    .party-history__history-heading,.party-history__paragraph{
+        margin-left: 30px;
+    }
+
+    .members{
+        flex-grow: 0;
+        flex-basis: 100%;
+        height: auto;
+        display: flex;
+        position: relative;
+    }
+
+    .members__image{
+        width: 40%;
+        height: 50vw;
+    }
+
+
+    .members__plate{
+        position: relative;
+        margin-top: 10vw;
+    }
+
+    .members-name{
+        font-size: 1.3rem;
+    }
+
+    .members-pm{
+        display: inline-block;
+        font-size: 0.9rem;
+        padding: 14px 17px;
+
+    }
+
+    .members-title{
+        font-size: 0.9rem;
+        max-width: 400px;
+
+    }
+
+
 }
 
 
