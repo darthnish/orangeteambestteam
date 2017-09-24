@@ -83,7 +83,7 @@ function displayInfo(xml) {
 			"<p id=" + partyCol + " class='party-name'>" +
 			mp[i].getElementsByTagName("CaucusShortName")[0].childNodes[0].nodeValue + 
 			"</p>" +
-			"<p>" +
+			"<p class='constituency'>" +
 			mp[i].getElementsByTagName("ConstituencyName")[0].childNodes[0].nodeValue + 
 			"</p>" +
 			"</div>";		
