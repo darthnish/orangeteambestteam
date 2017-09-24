@@ -7,16 +7,27 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+.container-fluid--mp{
+	margin-top: 5vh;
+}
+
 .title {
 	font-family: 'Zilla Slab Highlight', cursive;
 	font-size:3rem;
 	text-align:left;
+	font-weight:600;
 }
 
 .sec-title {
 	font-family: 'Zilla Slab', serif;
 	float:left;
 }
+
+.mp-select {
+	margin-top:10vh;
+	margin-bottom:10vh;
+}
+
 
 /* Select Box */
 #province, #parties {
@@ -27,4 +38,40 @@ body {
 	clear:left;
 	margin-left:30px;
 	margin-top:8px;
+}
+
+/* Map */
+
+path {
+  fill: ;
+  stroke: ;
+  stroke-width: 1;
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+
+path:hover {
+  fill: black;
+}
+
+.test{
+	width: 500px;
+	display: block;
+	background: #000;
+}
+
+/* Modal Box */
+.title-modal {
+	font-family: 'Zilla Slab', serif;
+	float:left;
+}
+
+.modal-select {
+	text-align:right;
+}
+
+.line {
+	width:100%;
+	height:2vh;
+	background: orange;
 }
