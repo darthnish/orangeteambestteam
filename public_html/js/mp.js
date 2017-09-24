@@ -8,3 +8,6 @@ window.onload = function() {
     paths[i].onclick = alertName;
   }
 };
+
+//Modal
+$('#myModal').modal(options)
