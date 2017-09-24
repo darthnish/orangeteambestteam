@@ -20,6 +20,8 @@ body {
   font-family: "Zilla Slab Highlight", serif;
   color: #fff;
   font-weight: 700; }
+  .page-heading:first-letter {
+    text-transform: uppercase; }
 
 .section-heading {
   font-size: 1.8rem;
@@ -145,7 +147,9 @@ body {
 .policy__card {
   width: 100%;
   height: 100%;
-  padding: 45px 20px;
+  padding: 45px 20px; }
+
+.border--liberal {
   border: 1px solid #D71920; }
 
 .card__icn {
@@ -259,6 +263,11 @@ body {
 .no-gutters > .members {
   padding-right: 45px;
   margin-bottom: 45px; }
+
+.party__link {
+  color: #fff; }
+  .party__link:hover {
+    color: #fff; }
 
 @media (max-width: 1400px) {
   .members {

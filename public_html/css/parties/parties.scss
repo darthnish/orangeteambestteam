@@ -44,6 +44,10 @@ body{
     font-family:$is-h1-font;
     color: $white;
     font-weight: 700;
+
+    &:first-letter{
+        text-transform: uppercase;
+    }
 }
 
 .section-heading{
@@ -204,6 +208,9 @@ body{
     width: 100%;
     height: 100%;
     padding: 45px 20px;
+}
+
+.border--liberal{
     border: 1px solid $liberalRed;
 }
 
@@ -340,6 +347,13 @@ body{
 .no-gutters>.members{
     padding-right: 45px;
     margin-bottom: 45px;
+}
+
+.party__link{
+    color: #fff;
+    &:hover{
+        color: #fff;
+    }
 }
 
 
