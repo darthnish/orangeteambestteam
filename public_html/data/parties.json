@@ -1,0 +1,303 @@
+{
+	"liberal": {
+		"leader": "Justin Trudeau",
+		"description": "The Liberal Party is the oldest federal political party in Canada. The party generaly sits to the left of the Conservative Party and to the right of the New Democratic Party.",
+		"twitter": "https://twitter.com/liberal_party",
+		"facebook": "https://www.facebook.com/LiberalCA/",
+		"senate": 18,
+		"commons": 181,
+		"members": [
+			{
+				"name": "Justin Trudeau",
+				"title": "Party Leader",
+				"image":"justin_trudeau"
+			},
+			{
+				"name": "Jody Wilson-Raybould",
+				"title": "Minister of Justice & Attorney General of Canada",
+				"image":"jody_wilson-raybould"
+			},
+			{
+				"name": "Ralph Goodale",
+				"title": "Minister of Public Satety & Deputy Leader",
+				"image":"ralph_goodale"
+			},
+			{
+				"name": "Harjit Sajjan",
+				"title": "Minister of National Defence",
+				"image":"harjit_sajjan"
+			},
+			{
+				"name": "Christine Freeland",
+				"title": "Minister of  Foreign Affairs",
+				"image":"christine_freeland"
+			},
+			{
+				"name": "Bill Morneau",
+				"title": "Minister of Finance",
+				"image":"bill_morneau"
+			}
+		],
+		"history": [
+			{
+				"year": 2015,
+				"title": "Justin Trudeau Leads",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 2006,
+				"title": "Trailing The Conservatives",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 1993,
+				"title": "Under Chrétien and Martin",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 1968,
+				"title": "Pierre Trudeau Era",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 1896,
+				"title": "The Party of Sovereignty & Progressive Policy",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			}
+		],
+		"policies": {
+			"Health": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Education": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Economy": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Environment": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Jobs": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Foreign Policy": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Families": "The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Social Issues": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Housing": "The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce."
+		}
+	},
+
+	"ndp": {
+		"leader": "Tom Mulcair",
+		"description": "The Liberal Party is the oldest federal political party in Canada. The party generaly sits to the left of the Conservative Party and to the right of the New Democratic Party.",
+		"twitter": "https://twitter.com/ndp",
+		"facebook": "https://www.facebook.com/NDP.NPD/",
+		"senate": 0,
+		"commons": 44,
+		"members": [
+			{
+				"name": "Tom Mulclair",
+				"title": "Party Leader",
+				"image":"tom_mulcair"
+			},
+			{
+				"name": "Murray Rankin",
+				"title": "House Leader",
+				"image":"murray_rankin"
+			},
+			{
+				"name": "Alistair Macgregor",
+				"title": "Critic for Justice & Attorney General",
+				"image":"alistair_macgregor"
+			},
+			{
+				"name": "Irene Mathyssen",
+				"title": "Deputy Whip & Critic of Veterans",
+				"image":"irene_mathyssen"
+			},
+			{
+				"name": "Don Davies",
+				"title": "Health",
+				"image":"don_davies"
+			},
+			{
+				"name": "Tracey Ramsey",
+				"title": "International Trade",
+				"image":"tracey_ramsey"
+			}
+		],
+		"history": [
+			{
+				"year": 2013,
+				"title": "Mulclair Tenure ",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 2002,
+				"title": "Rise Under Layton",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 1993,
+				"title": "Decline & Recovery",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 1971,
+				"title": "Traction as a Populist Alongside Liberals",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 1958,
+				"title": "Birth From Labour Groups",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			}
+		],
+		"policies": {
+			"Health": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Education": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Economy": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Environment": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Jobs": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Foreign Policy": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Families": "The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Social Issues": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Housing": "The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce."
+		}
+	},
+
+	"conservative": {
+		"leader": "Andrew Sheer",
+		"description": "The Liberal Party is the oldest federal political party in Canada. The party generaly sits to the left of the Conservative Party and to the right of the New Democratic Party.",
+		"twitter": "http://facebook.com/cpcpcc",
+		"facebook": "https://twitter.com/cpc_hq/",
+		"senate": 37,
+		"commons": 97,
+		"hero": "parties-hero--liberal",
+		"members": [
+			{
+				"name": "Andrew Sheer",
+				"title": "Party Leader",
+				"image":"andrew_sheer"
+			},
+			{
+				"name": "Candice Bergen",
+				"title": "House Leader",
+				"image":"candic_bergen"
+			},
+			{
+				"name": "Diane Finely",
+				"title": "Caucaus-Party Liason",
+				"image":"diane_finely"
+			},
+			{
+				"name": "Mark Strahl",
+				"title": "Minister of National Defence",
+				"image":"mark_strahl"
+			},
+			{
+				"name": "Lisa Raitt",
+				"title": "Deputy Leader",
+				"image":"lisa_raitt"
+			},
+			{
+				"name": "Erin O'Toole",
+				"title": "Foreign Affairs",
+				"image":"erin_otoole"
+			}
+		],
+		"history": [
+			{
+				"year": 2015,
+				"title": "Justin Trudeau Leads",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 2006,
+				"title": "Trailing The Conservatives",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 1993,
+				"title": "Under Chrétien and Martin",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 1968,
+				"title": "Pierre Trudeau Era",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 1896,
+				"title": "The Party of Sovereignty & Progressive Policy",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			}
+		],
+		"policies": {
+			"Health": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Education": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Economy": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Environment": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Jobs": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Foreign Policy": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Families": "The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Social Issues": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Housing": "The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce."
+		}
+	},
+	"green": {
+		"leader": "Elizabeth May",
+		"description": "The Liberal Party is the oldest federal political party in Canada. The party generaly sits to the left of the Conservative Party and to the right of the New Democratic Party.",
+		"twitter": "https://twitter.com/canadiangreens",
+		"facebook": "https://www.facebook.com/GreenPartyofCanada",
+		"senate": 0,
+		"commons": 1,
+		"hero": "parties-hero--liberal",
+		"members": [
+			{
+				"name": "Elizabeth May",
+				"title": "Party Leader",
+				"image":"elizabeth_may"
+			},
+			{
+				"name": "Bruce Hyder",
+				"title": "Deputy Leader",
+				"image":"bruce_hyder"
+			},
+			{
+				"name": "Daniel Green",
+				"title": "Deputy Leader",
+				"image":"daniel_green"
+			}
+		],
+		"history": [
+			{
+				"year": 2015,
+				"title": "Justin Trudeau Leads",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 2006,
+				"title": "Trailing The Conservatives",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 1993,
+				"title": "Under Chrétien and Martin",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 1968,
+				"title": "Pierre Trudeau Era",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			},
+			{
+				"year": 1896,
+				"title": "The Party of Sovereignty & Progressive Policy",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid, si non sensus modo ei sit datus, verum etiam animus hom."
+			}
+		],
+		"policies": {
+			"Health": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Education": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Economy": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Environment": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Jobs": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Foreign Policy": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Families": "The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Social Issues": "Hi My Name is bob asdasdasd . The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce.",
+			"Housing": "The Liberal party promises to restore the Old Age Security age of eligibility back to 65 years from the current 67 and increase the Guaranteed Income Supplement for single low-income seniors by ten percent. The party promises to introduce."
+		}
+	}
+}
