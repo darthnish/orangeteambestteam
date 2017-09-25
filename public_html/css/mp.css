@@ -15,10 +15,16 @@ body {
 
 .sec-title {
 	font-family: 'Zilla Slab', serif;
-	position: relative;
+	float:left;
+}
+
+/* Select Box */
+#province, #parties {
+	height:5vh;
 }
 
 #province {
-	height:5vh;
-	float:left;
+	clear:left;
+	margin-left:30px;
+	margin-top:8px;
 }
