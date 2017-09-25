@@ -6,7 +6,6 @@
 @media (min-width: 768px) {
     h1 {
       color: pink; } }
->>>>>>> haruna
 *{
  box-sizing: border-box;
  margin:0px;
@@ -73,14 +72,3 @@ video{
     background-color:#3D9B35;
     opacity:0.8;
 }
-<<<<<<< HEAD
-=======
-@import "header.css";
-@import "mail.css";
-
-@media (min-width: 768px) {
-    h1 {
-      color: pink; } }
->>>>>>> haruna
-=======
->>>>>>> haruna
