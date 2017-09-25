@@ -15,8 +15,6 @@
 	</head>
 
 	<body>
-	
-		
 		<div class="container-fluid container-fluid--mp">
 
 			<h1 class="title">Who's My MP</h1>
