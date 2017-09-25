@@ -66,7 +66,7 @@
 <nav class="mobile_menu">
     <div class="row mobile_menu_top">
         <div class="col-10">
-            <a class="f-brand nav-subscribe" href="#" data-toggle="modal" data-target="#exampleModal">
+            <a class="navbar-brand f-brand nav-subscribe" href="#" data-toggle="modal" data-target="#exampleModal">
                     <img src="img/icon/mail_black.svg" alt="subscribe">
            </a>
         </div>

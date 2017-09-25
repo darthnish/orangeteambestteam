@@ -19,7 +19,7 @@
   </head>
   <body class="compare-parties">
 	 <?php include "partials/header_2.php" ?>
-     
+
     <h1>Hello, world!</h1>
 
     <?php include "partials/footer_innerpage.php" ?>

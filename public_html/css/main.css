@@ -1,26 +1,8 @@
-<<<<<<< HEAD
-
-@import "partials/footer.css";
-@import "partials/header.css";
-@import "mail/mail.css";
+@import "footer.css";
+@import "header.css";
+@import "mail.css";
 @import "css/landingpage.css";
 
 @media (min-width: 768px) {
     h1 {
       color: pink; } }
-=======
-@import "footer.css";
-<<<<<<< HEAD
->>>>>>> parent of faaacf7... update css file structure
-
-<<<<<<< HEAD
-=======
-=======
-@import "header.css";
-@import "mail.css";
-
-@media (min-width: 768px) {
-    h1 {
-      color: pink; } }
->>>>>>> haruna
->>>>>>> parent of faaacf7... update css file structure
