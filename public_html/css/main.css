@@ -1,12 +1,10 @@
-@import "footer.css";
-<<<<<<< HEAD
-@import "header.css";
-@import "mail.css";
+@import "partials/footer.css";
+@import "partials/header.css";
+@import "mail/mail.css";
 
 @media (min-width: 768px) {
     h1 {
       color: pink; } }
-=======
 *{
  box-sizing: border-box;
  margin:0px;
@@ -24,7 +22,7 @@
 .overlay{
     background-color:black;
     height:100vh;
-    opacity: 0.5;   
+    opacity: 0.5;
 }
 
 .fill {
@@ -33,7 +31,7 @@
 }
 
 .party-logo{
-    width:300px;   
+    width:300px;
 }
 
 .main-content{
@@ -51,7 +49,7 @@
 }
 
 video{
-    width:100%;  
+    width:100%;
 }
 
 .overlay.liberal:hover{
@@ -73,4 +71,3 @@ video{
     background-color:#3D9B35;
     opacity:0.8;
 }
->>>>>>> 86260106a3bd8e522655f365996aa506144230bf
