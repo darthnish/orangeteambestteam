@@ -45,18 +45,12 @@ body .navbar-light .navbar-nav .nav-link {
 .nav-a-img {
   line-height: 6.5vh; }
 
-.nav-desctop {
-  background: white !important; }
-  @media screen and (max-width: 770px) {
-    .nav-desctop {
-      display: none;
-      background: #000; } }
+.menu_section {
+  justify-content: flex-end; }
 
-.nav-mobile {
-  background: white !important; }
-  @media screen and (max-width: 770px) {
-    .nav-mobile {
-      display: block; } }
+@media screen and (min-width: 1000px) {
+  .nav-mobile {
+    display: none; } }
 
 .row {
   margin: 0; }
