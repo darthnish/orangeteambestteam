@@ -20,6 +20,8 @@ body {
   font-family: "Zilla Slab Highlight", serif;
   color: #fff;
   font-weight: 700; }
+  .page-heading:first-letter {
+    text-transform: uppercase; }
 
 .section-heading {
   font-size: 1.8rem;
@@ -57,9 +59,52 @@ body {
 .background--liberal {
   background-color: #D71920; }
 
+.border--liberal {
+  border: 1px solid #D71920; }
+
+.color--ndp {
+  color: #F37021;
+  fill: #F37021; }
+
+.border-right--ndp {
+  border-right: 1.5px solid #F37021; }
+
+.background--ndp {
+  background-color: #F37021; }
+
+.border--ndp {
+  border: 1px solid #F37021; }
+
+.color--conservative {
+  color: #0C499C;
+  fill: #0C499C; }
+
+.border-right--conservative {
+  border-right: 1.5px solid #0C499C; }
+
+.background--conservative {
+  background-color: #0C499C; }
+
+.border--conservative {
+  border: 1px solid #0C499C; }
+
+.color--green {
+  color: #3D9B35;
+  fill: #3D9B35; }
+
+.border-right--green {
+  border-right: 1.5px solid #3D9B35; }
+
+.background--green {
+  background-color: #3D9B35; }
+
+.border--green {
+  border: 1px solid #3D9B35; }
+
 /*HERO SECTION*/
 .parties-hero {
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 .parties-hero--liberal {
   background-image: url("../../img/parties/liberals_hero.jpg");
@@ -67,9 +112,36 @@ body {
   background-repeat: no-repeat;
   background-position: center; }
 
-@media (max-width: 767px) {
-  .parties-hero--liberal {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/parties/liberals_hero.jpg"); } }
+.parties-hero--ndp {
+  background-image: url("../../img/parties/ndp_hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.parties-hero--conservative {
+  background-image: url("../../img/parties/conservative_hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.parties-hero--green {
+  background-image: url("../../img/parties/green_hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.parties-hero--overlay {
+  background: transparent;
+  width: 100%;
+  height: 100%; }
+
+.parties-hero--overlay {
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%; }
+  @media (max-width: 767px) {
+    .parties-hero--overlay {
+      background: rgba(0, 0, 0, 0.6); } }
 
 .parties-information {
   margin-top: 19vw;
@@ -114,9 +186,6 @@ body {
   width: 50%;
   height: 100%; }
 
-.member-cal--liberal {
-  background: #D71920; }
-
 .member-cal__number {
   font-weight: 800;
   margin-top: -2px;
@@ -145,8 +214,7 @@ body {
 .policy__card {
   width: 100%;
   height: 100%;
-  padding: 45px 20px;
-  border: 1px solid #D71920; }
+  padding: 45px 20px; }
 
 .card__icn {
   margin: -0.5px 16px 0 0;
@@ -226,7 +294,7 @@ body {
 .members__plate {
   position: absolute;
   padding: 0 20px;
-  bottom: 40px;
+  bottom: 30px;
   display: inline-block; }
 
 .members-name {
@@ -260,6 +328,11 @@ body {
   padding-right: 45px;
   margin-bottom: 45px; }
 
+.party__link {
+  color: #fff; }
+  .party__link:hover {
+    color: #fff; }
+
 @media (max-width: 1400px) {
   .members {
     height: 400px; } }
@@ -289,22 +362,6 @@ body {
     margin-left: 35px; } }
 
 @media (max-width: 1800px) {
-  .party-policies {
-    flex-basis: 65%; } }
-
-@media (max-width: 991px) {
-  .party-policies {
-    flex-basis: 50%; } }
-
-@media (max-width: 1800px) {
-  .policy {
-    flex-basis: 50%; } }
-
-@media (max-width: 991px) {
-  .policy {
-    flex-basis: 100%; } }
-
-@media (max-width: 1800px) {
   .party-history {
     width: 30%; }
   .party-history__paragraph {
@@ -313,11 +370,19 @@ body {
   .party-history__history-heading, .party-history__paragraph {
     margin-left: 80px; }
   .party-history__history-heading {
-    max-width: 150px; } }
+    max-width: 150px; }
+  .policy {
+    flex-basis: 50%; }
+  .party-policies {
+    flex-basis: 65%; } }
 
 @media (max-width: 991px) {
   .party-history {
-    width: 50%; } }
+    width: 50%; }
+  .policy {
+    flex-basis: 100%; }
+  .party-policies {
+    flex-basis: 50%; } }
 
 @media (min-width: 1990px) and (max-width: 2546px) {
   .party-policies {
