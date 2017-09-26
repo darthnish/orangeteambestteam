@@ -77,7 +77,7 @@
         </div>
     </div>
     <div class="mobile_menu_list">
-        <ul></ul></div>
+        <ul>
             <li class="h3">PARTY</li>
                 <ul class="submenu_parties">
                     <li class="h5"><a href="parties.php?party=liberal">Liberal Party</a></li>

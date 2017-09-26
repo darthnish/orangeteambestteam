@@ -24,11 +24,7 @@
 	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=conservative">
 	                         <img src="img/logo/conservative_logo.png" width="120" height="auto" alt="liberalParty">
 	                    </a>
-<<<<<<< HEAD
-	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=ndp">
-=======
 	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=npd">
->>>>>>> hei
 	                         <img src="img/logo/ndp_logo.svg" width="120" height="40" alt="liberalParty">
 	                    </a>
 	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=green">
@@ -71,7 +67,7 @@
     <div class="row mobile_menu_top">
         <div class="col-10">
             <a class="navbar-brand f-brand nav-subscribe" href="#" data-toggle="modal" data-target="#exampleModal">
-                    <i class="material-icons">mail_outline</i>
+                    <img src="img/icon/mail_black.svg" alt="subscribe">
            </a>
         </div>
         <div class="col-2">
