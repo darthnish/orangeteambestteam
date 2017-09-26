@@ -48,7 +48,7 @@
 	</div>
 </nav>
 
-<nav class="navbar navbar-expand-lg navbar-light nav-mobile">
+<!-- <nav class="navbar navbar-expand-lg navbar-light nav-mobile">
 		 <a class="navbar-brand">
       		<img src="img/logo/logo_black.svg" width="140" height="65" alt="img">
     	</a>
@@ -61,7 +61,7 @@
            </li>
        </ul>
    </div>
-</nav>
+</nav> -->
 
 <nav class="mobile_menu">
     <div class="row mobile_menu_top">
