@@ -2,8 +2,7 @@ body .navbar-light .navbar-nav .nav-link {
   color: #231f20; }
 
 .nav-transparent {
-  background: transparent !important;
-    background-color: white !important; }
+  background: transparent !important; }
 
 .no-bg-button {
   background-color: transparent;
