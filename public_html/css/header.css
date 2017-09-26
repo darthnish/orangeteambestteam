@@ -55,13 +55,16 @@ body .navbar-light .navbar-nav .nav-link {
 
 .nav-desktop {
   padding: 0.5em 0 !important; }
+  @media screen and (min-width: 991px) {
+    .nav-desktop {
+      padding: 0.5em 0 !important; } }
   .nav-desktop i {
     font-size: 2em; }
 
 .menu_section {
   justify-content: flex-end; }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 990px) {
   .nav-mobile {
     display: none; } }
 
