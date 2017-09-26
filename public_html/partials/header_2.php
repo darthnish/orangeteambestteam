@@ -6,7 +6,7 @@
 <nav class="navbar navbar-expand-lg navbar-light nav-desktop navbar-static-top">
 	<div class="container-fluid">
 		 <a class="navbar-brand" href="#">
-      		<img src="img/logo/logo_black.svg" width="140" height="65" alt="img">
+      		<img src="img/logo/logo_black.svg" alt="img">
     	</a>
 		<button class="navbar-toggle nav-mobile no-bg-button" data-toggle="collapse">
 			<a class="navbar-brand button_mobile_menu">
