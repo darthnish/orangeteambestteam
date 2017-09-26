@@ -2,7 +2,12 @@ body .navbar-light .navbar-nav .nav-link {
   color: #231f20; }
 
 .nav-transparent {
-  background: transparent !important; }
+  background: transparent !important;
+    background-color: white !important; }
+
+.no-bg-button {
+  background-color: transparent;
+  border: none; }
 
 .modal .modal-content {
   border: none;

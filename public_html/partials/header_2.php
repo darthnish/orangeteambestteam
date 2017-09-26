@@ -3,7 +3,7 @@
 
 <div class="overlay"></div>
 
-<nav class="navbar navbar-expand-lg navbar-light nav-desktop navbar-static-top">
+<nav class="navbar navbar-expand-lg navbar-light nav-desktop navbar-static-top"">
 	<div class="container-fluid">
 		 <a class="navbar-brand" href="#">
       		<img src="img/logo/logo_black.svg" width="140" height="65" alt="img">
@@ -13,7 +13,7 @@
 					  <img src="img/icon/menu_black.svg" width="50" height="40" alt="img">
 			 </a>
 		</button>
-	    <div class="collapse navbar-collapse menu_section navHeaderCollapse" >
+	    <div class="collapse navbar-collapse menu_section navHeaderCollapse no-bg-button" >
 		     <ul class="navbar-nav navbar-right pull-right">
 	             <li class="nav-item dropdown nav-li">
 			         	<a class="nav-link dropdown-toggle nav-a nav-party" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PARTY</a>
