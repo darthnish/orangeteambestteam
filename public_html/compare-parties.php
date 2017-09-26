@@ -16,6 +16,9 @@
 
     <!--Googl font  -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Zilla+Slab:400,500,500i,600,700" rel="stylesheet">
+    <!-- Google Icon  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
   <body class="compare-parties">
 	 <?php include "partials/header_2.php" ?>

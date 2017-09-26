@@ -10,7 +10,7 @@
     	</a>
 		<button class="navbar-toggle nav-mobile no-bg-button" data-toggle="collapse">
 			<a class="navbar-brand button_mobile_menu">
-					  <img src="img/icon/menu_white.svg" width="50" height="40" alt="img">
+					  <i class="material-icons">menu</i>
 			 </a>
 		</button>
 	    <div class="collapse navbar-collapse menu_section navHeaderCollapse" >
@@ -40,7 +40,7 @@
 		        </li>
 		        <li class="nav-item  nav-li">
 	                <a class="navbar-brand nav-subscribe" href="#" data-toggle="modal" data-target="#exampleModal">
-	   	      		        <img src="img/icon/mail_white.svg" width="50" height="40" alt="img">
+	   	      		        <i class="material-icons">mail_outline</i>
 	   	    	   </a>
 		        </li>
 		    </ul>
@@ -67,7 +67,7 @@
     <div class="row mobile_menu_top">
         <div class="col-10">
             <a class="navbar-brand f-brand nav-subscribe" href="#" data-toggle="modal" data-target="#exampleModal">
-                    <img src="img/icon/mail_black.svg" alt="subscribe">
+                    <i class="material-icons">mail_outline</i>
            </a>
         </div>
         <div class="col-2">

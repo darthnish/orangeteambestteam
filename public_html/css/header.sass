@@ -15,9 +15,13 @@ body
         color: $black
 .nav-transparent
     background: transparent !important
+    a
+        color: white!important
 .no-bg-button
     background-color: transparent
     border: none
+    i
+        font-size: 2em
 
 // modal box
 .modal .modal-content
@@ -58,24 +62,15 @@ body
     border: solid white 1px
 .nav-a-img
     line-height: 6.5vh
-
-//responsive doesn't work
-// .navbar .navbar-expand-lg .navbar-light .bg-light .nav-mobile
-    display: none
-.nav-desctop
-    //background: white !important
-// .menu-icon
-//     width: 100px
-//     height: 100px
-//     background: black
-//     color: black
-//     display: block
+.nav-desktop
+    padding: .5em 0!important
+    i
+        font-size: 2em
 .menu_section
     justify-content: flex-end
 .nav-mobile
     @media screen and (min-width: 1000px)
         display: none
-
 
 // menu for mobile
 //////////////////////////////////////////////////
@@ -121,11 +116,9 @@ body
     .nav-subscribe
         height: 100%
         width: 10%
-        img
-            display: block
-            margin: 0 auto
-            width: auto
-            height: 2em
+        i
+            font-size: 2.5em
+            color: $black
     .menu_close
         height: 100%
         width: 100%

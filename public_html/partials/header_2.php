@@ -3,14 +3,14 @@
 
 <div class="overlay"></div>
 
-<nav class="navbar navbar-expand-lg navbar-light nav-desktop navbar-static-top"">
+<nav class="navbar navbar-expand-lg navbar-light nav-desktop navbar-static-top">
 	<div class="container-fluid">
 		 <a class="navbar-brand" href="#">
       		<img src="img/logo/logo_black.svg" width="140" height="65" alt="img">
     	</a>
-		<button class="navbar-toggle nav-mobile" data-toggle="collapse">
+		<button class="navbar-toggle nav-mobile no-bg-button" data-toggle="collapse">
 			<a class="navbar-brand button_mobile_menu">
-					  <img src="img/icon/menu_black.svg" width="50" height="40" alt="img">
+					  <i class="material-icons">menu</i>
 			 </a>
 		</button>
 	    <div class="collapse navbar-collapse menu_section navHeaderCollapse no-bg-button" >
@@ -40,7 +40,7 @@
 		        </li>
 		        <li class="nav-item  nav-li">
 	                <a class="navbar-brand nav-subscribe" href="#" data-toggle="modal" data-target="#exampleModal">
-	   	      		        <img src="img/icon/mail_black.svg" width="50" height="40" alt="img">
+	   	      		        <i class="material-icons">mail_outline</i>
 	   	    	   </a>
 		        </li>
 		    </ul>

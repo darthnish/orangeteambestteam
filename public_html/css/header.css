@@ -3,10 +3,14 @@ body .navbar-light .navbar-nav .nav-link {
 
 .nav-transparent {
   background: transparent !important; }
+  .nav-transparent a {
+    color: white !important; }
 
 .no-bg-button {
   background-color: transparent;
   border: none; }
+  .no-bg-button i {
+    font-size: 2em; }
 
 .modal .modal-content {
   border: none;
@@ -48,6 +52,11 @@ body .navbar-light .navbar-nav .nav-link {
 
 .nav-a-img {
   line-height: 6.5vh; }
+
+.nav-desktop {
+  padding: 0.5em 0 !important; }
+  .nav-desktop i {
+    font-size: 2em; }
 
 .menu_section {
   justify-content: flex-end; }
@@ -97,11 +106,9 @@ body .navbar-light .navbar-nav .nav-link {
   .mobile_menu_top .nav-subscribe {
     height: 100%;
     width: 10%; }
-    .mobile_menu_top .nav-subscribe img {
-      display: block;
-      margin: 0 auto;
-      width: auto;
-      height: 2em; }
+    .mobile_menu_top .nav-subscribe i {
+      font-size: 2.5em;
+      color: #231f20; }
   .mobile_menu_top .menu_close {
     height: 100%;
     width: 100%; }
