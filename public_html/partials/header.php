@@ -18,16 +18,16 @@
 	             <li class="nav-item dropdown nav-li">
 			         	<a class="nav-link dropdown-toggle nav-a nav-party" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PARTY</a>
 			         	<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item nav-a nav-a-img" href="liberal.php">
+							<a class="dropdown-item nav-a nav-a-img" href="parties.php?party=liberal">
 	                         <img src="img/logo/liberal_logo.svg" width="120" height="40" alt="liberalParty">
 	                    </a>
-	                    <a class="dropdown-item nav-a nav-a-img" href="conservative.php">
+	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=conservative">
 	                         <img src="img/logo/conservative_logo.png" width="120" height="auto" alt="liberalParty">
 	                    </a>
-	                    <a class="dropdown-item nav-a nav-a-img" href="ndp.php">
+	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=ndp">
 	                         <img src="img/logo/ndp_logo.svg" width="120" height="40" alt="liberalParty">
 	                    </a>
-	                    <a class="dropdown-item nav-a nav-a-img" href="green.php">
+	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=green">
 	                         <img src="img/logo/green_logo.svg" width="120" height="50" alt="liberalParty">
 	                    </a>
 			         	</div>
@@ -80,13 +80,13 @@
         <ul>
             <li class="h3">PARTY</li>
                 <ul class="submenu_parties">
-                    <li class="h5">Liberal Party</li>
-                    <li class="h5">Conservative Party</li>
-                    <li class="h5">New Democratic Party</li>
-                    <li class="h5">Green Party</li>
+                    <li class="h5"><a href="parties.php?party=liberal">Liberal Party</a></li>
+                    <li class="h5"><a href="parties.php?party=conservative">Conservative Party</a></li>
+                    <li class="h5"><a href="parties.php?party=ndp">New Democratic Party</a></li>
+                    <li class="h5"><a href="parties.php?party=green">Green Party</a></li>
                 </ul>
-            <li class="h3">WHO'S MY MP</li>
-            <li class="h3">COMPARE PARTY</li>
+            <li class="h3"><a href="my-mp.php">WHO'S MY MP</a></li>
+            <li class="h3"><a href="compare-parties.php">COMPARE PARTY</a></li>
         </ul>
     </div>
     <div class="mobile_menu_sns">
