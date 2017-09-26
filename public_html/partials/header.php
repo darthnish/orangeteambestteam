@@ -80,13 +80,13 @@
         <ul></ul></div>
             <li class="h3">PARTY</li>
                 <ul class="submenu_parties">
-                    <li class="h5">Liberal Party</li>
-                    <li class="h5">Conservative Party</li>
-                    <li class="h5">New Democratic Party</li>
-                    <li class="h5">Green Party</li>
+                    <li class="h5"><a href="parties.php?party=liberal">Liberal Party</a></li>
+                    <li class="h5"><a href="parties.php?party=conservative">Conservative Party</a></li>
+                    <li class="h5"><a href="parties.php?party=ndp">New Democratic Party</a></li>
+                    <li class="h5"><a href="parties.php?party=green">Green Party</a></li>
                 </ul>
-            <li class="h3">WHO'S MY MP</li>
-            <li class="h3">COMPARE PARTY</li>
+            <li class="h3"><a href="my-mp.php">WHO'S MY MP</a></li>
+            <li class="h3"><a href="compare-parties.php">COMPARE PARTY</a></li>
         </ul>
     </div>
     <div class="mobile_menu_sns">

@@ -24,7 +24,11 @@
 	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=conservative">
 	                         <img src="img/logo/conservative_logo.png" width="120" height="auto" alt="liberalParty">
 	                    </a>
+<<<<<<< HEAD
 	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=ndp">
+=======
+	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=npd">
+>>>>>>> hei
 	                         <img src="img/logo/ndp_logo.svg" width="120" height="40" alt="liberalParty">
 	                    </a>
 	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=green">
@@ -80,13 +84,13 @@
         <ul>
             <li class="h3">PARTY</li>
                 <ul class="submenu_parties">
-                    <li class="h5">Liberal Party</li>
-                    <li class="h5">Conservative Party</li>
-                    <li class="h5">New Democratic Party</li>
-                    <li class="h5">Green Party</li>
+                    <li class="h5"><a href="parties.php?party=liberal">Liberal Party</a></li>
+                    <li class="h5"><a href="parties.php?party=conservative">Conservative Party</a></li>
+                    <li class="h5"><a href="parties.php?party=ndp">New Democratic Party</a></li>
+                    <li class="h5"><a href="parties.php?party=green">Green Party</a></li>
                 </ul>
-            <li class="h3">WHO'S MY MP</li>
-            <li class="h3">COMPARE PARTY</li>
+            <li class="h3"><a href="my-mp.php">WHO'S MY MP</a></li>
+            <li class="h3"><a href="compare-parties.php">COMPARE PARTY</a></li>
         </ul>
     </div>
     <div class="mobile_menu_sns">

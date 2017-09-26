@@ -80,6 +80,10 @@ body .navbar-light .navbar-nav .nav-link {
   z-index: 55;
   transition: all 1s ease;
   transform: translate(100%, 0); }
+  .mobile_menu a {
+    color: #231f20; }
+    .mobile_menu a:hover {
+      color: #231f20; }
   .mobile_menu ul {
     list-style-type: none; }
 
