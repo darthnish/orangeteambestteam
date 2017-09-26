@@ -18,16 +18,16 @@
 	             <li class="nav-item dropdown nav-li">
 			         	<a class="nav-link dropdown-toggle nav-a nav-party" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PARTY</a>
 			         	<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-							<a class="dropdown-item nav-a nav-a-img" href="liberal.php">
+							<a class="dropdown-item nav-a nav-a-img" href="parties.php?party=liberal">
 	                         <img src="img/logo/liberal_logo.svg" width="120" height="40" alt="liberalParty">
 	                    </a>
-	                    <a class="dropdown-item nav-a nav-a-img" href="conservative.php">
+	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=conservative">
 	                         <img src="img/logo/conservative_logo.png" width="120" height="auto" alt="liberalParty">
 	                    </a>
-	                    <a class="dropdown-item nav-a nav-a-img" href="ndp.php">
+	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=ndp">
 	                         <img src="img/logo/ndp_logo.svg" width="120" height="40" alt="liberalParty">
 	                    </a>
-	                    <a class="dropdown-item nav-a nav-a-img" href="green.php">
+	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=green">
 	                         <img src="img/logo/green_logo.svg" width="120" height="50" alt="liberalParty">
 	                    </a>
 			         	</div>
@@ -67,7 +67,7 @@
     <div class="row mobile_menu_top">
         <div class="col-10">
             <a class="navbar-brand f-brand nav-subscribe" href="#" data-toggle="modal" data-target="#exampleModal">
-                    <img src="img/icon/mail_black.svg" alt="subscribe">
+                    <i class="material-icons">mail_outline</i>
            </a>
         </div>
         <div class="col-2">
