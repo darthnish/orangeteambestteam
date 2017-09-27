@@ -48,21 +48,6 @@
 	</div>
 </nav>
 
-<!-- <nav class="navbar navbar-expand-lg navbar-light nav-mobile">
-		 <a class="navbar-brand">
-      		<img src="img/logo/logo_black.svg" width="140" height="65" alt="img">
-    	</a>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-	     <ul class="navbar-nav">
-             <li class="nav-item  nav-li nav-desctop">
-                 <a class="navbar-brand button_mobile_menu">
-                           <img src="img/icon/menu_black.svg" width="50" height="40" alt="img">
-                  </a>
-           </li>
-       </ul>
-   </div>
-</nav> -->
-
 <nav class="mobile_menu">
     <div class="row mobile_menu_top">
         <div class="col-10">
