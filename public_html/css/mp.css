@@ -2,7 +2,6 @@
 font-family: 'Zilla Slab Highlight', cursive;
 font-family: 'Zilla Slab', serif;
 font-family: 'Lato', sans-serif;
-
 red #E10020
 orange #F37021
 green #3D9B35
@@ -136,8 +135,9 @@ li:first-child {
 }
 
 .con-img {
-	width:150px;
-	height:38px;
+	width:auto;
+	height:30px;
+	margin-top:7px;
 }
 
 .num {
@@ -189,6 +189,8 @@ li:first-child {
 
 .constituency {
 	margin-top:10px;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
 }
 
 .modal-lg {
@@ -219,7 +221,6 @@ li:first-child {
 @media only screen and (max-width: 750px) {
 	#parties {
 		font-size:unset;
-		height:unset;
 		margin-left:10px;
 	}
 

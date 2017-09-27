@@ -229,7 +229,11 @@ $(function(){
 
   // After click province, show modal box
 
-});
+  // Now is only show all mp on modalbox
+  // How to change after click province, only show that province's mp
+  // Sorry I tried but I can't figure out how to make
+  $('.mpMap').click(function() {
+    $('#mp-modal').modal('show');
+  });
 
-//Modal
-//$('#myModal').modal(options);
+});

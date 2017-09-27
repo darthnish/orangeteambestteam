@@ -15,6 +15,9 @@
 	</head>
 
 	<body>
+		<!-- Header_2 is broken -->
+		<?php //include 'partials/header_2.php' ?>
+
 		<div class="container-fluid container-fluid--mp">
 
 			<h1 class="title">Who's My MP</h1>
@@ -22,6 +25,7 @@
 			<div class="mp-select">
 				<div class="d-flex justify-content-center">
 					<h1 class="sec-title">Select Your</h1>
+					<!-- function is on the mp.js file-->
 					<select name="province" id="province">
 						<option value="Province">Province</option>
 						<option value="Ontario">Ontario</option>
@@ -55,6 +59,7 @@
 		<div class="container-fluid container-fluid--mp">
 
 			<!-- When hover over on the map show this box -->
+			<!-- function is on the mp.js file-->
 			<div class="mp-num-con">
 				<ul class="list-unstyled">
 					<div class="d-flex justify-content-center align-items-center">
@@ -69,7 +74,7 @@
 						<p id="ndp-num" class="num orange">2</p>
 					</li>
 					<li class="d-flex justify-content-between">
-						<img class="mp-num-img con-img" src="img/logo/conservative_logo.png" alt="Conservative's Logo">
+						<img class="con-img" src="img/logo/conservative_logo.png" alt="Conservative's Logo">
 						<p id="con-num" class="num blue">3</p>
 					</li>
 					<li class="d-flex justify-content-between">
@@ -79,12 +84,7 @@
 				</ul>
 			</div>
 
-			<!--Modal Box // Eventually take off this modal button-->
-			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mp-modal">
-			  Launch demo modal
-			</button>
-
-			<!-- Modal -->
+			<!-- Modal Box -->
 			<div class="modal fade" id="mp-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog modal-lg" role="document">
 			    <div class="modal-content">
@@ -98,6 +98,7 @@
 								<div class="title-modal-con">
 									<h1 class="title-modal">Current MP in <span>Province</span></h1>
 									<div class="modal-select">
+										<!-- select box function is on the xml.js file -->
 										<select name="parties" id="parties">
 											<option value="all parties">All Parties</option>
 											<option value="Liberal">Liberal</option>
@@ -106,6 +107,7 @@
 											<option value="Green Party">Green Party</option>
 										</select>
 									</div>
+									<!-- showing mp member's function is on the xml.js file -->
 								</div>
 							<div id="display-info" class="row"></div>
 			    	</div>
