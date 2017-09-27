@@ -8,6 +8,7 @@ orange #F37021
 green #3D9B35
 blue #0C499C
 */
+
 body {
 	font-family: 'Lato', sans-serif;
 }
@@ -36,6 +37,7 @@ h1 {
 	width: 80%;
 	margin: auto;
 }
+
 .mp-select {
 	margin-top:10vh;
 	margin-bottom:10vh;

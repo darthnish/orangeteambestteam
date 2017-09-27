@@ -91,6 +91,7 @@ function displayInfo(xml) {
 	$( "#display-info" ).append(info);
 }
 
+//////////////////////////////////////////////////////////////
 
 // When change select box
 $('#parties').change(function() {

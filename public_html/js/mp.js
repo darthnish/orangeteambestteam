@@ -228,7 +228,6 @@ $(function(){
   /////////////////////////////////////////////
 
   // After click province, show modal box
-  
 
 });
 

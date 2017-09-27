@@ -54,66 +54,63 @@
 
 		<div class="container-fluid container-fluid--mp">
 
-		<!-- When hover over on the map show this box -->
-		<div class="mp-num-con">
-			<ul class="list-unstyled">
-				<div class="d-flex justify-content-center align-items-center">
-					<li id="prov-name" class="mp-num-prov">Province</li>
-				</div>
-				<li class="d-flex justify-content-between">
-					<img class="mp-num-img" src="img/logo/liberal_logo.svg" alt="Liberal's Logo">
-					<p id="lib-num" class="num red">1</p>
-				</li>
-				<li class="d-flex justify-content-between">
-					<img class="mp-num-img" src="img/logo/ndp_logo.svg" alt="NDP's Logo">
-					<p id="ndp-num" class="num orange">2</p>
-				</li>
-				<li class="d-flex justify-content-between">
-					<img class="mp-num-img con-img" src="img/logo/conservative_logo.png" alt="Conservative's Logo">
-					<p id="con-num" class="num blue">3</p>
-				</li>
-				<li class="d-flex justify-content-between">
-					<img class="mp-num-img" src="img/logo/green_logo.svg" alt="Green Logo">
-					<p id="green-num" class="num green">4</p>
-				</li>
-			</ul>
-		</div>
-
-		<!--Modal Box-->
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mp-modal">
-		  Launch demo modal
-		</button>
-
-		<!-- Modal -->
-		<div class="modal fade" id="mp-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog modal-lg" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <h5 class="modal-title" id="exampleModalLabel"></h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-		        </button>
-	      	</div>
-	      	<div class="modal-body">
-	        	<div class="container-fluid" id="test" data-party="page">
-							<div class="title-modal-con">
-								<h1 class="title-modal">Current MP in <span>Province</span></h1>
-								<div class="modal-select">
-									<select name="parties" id="parties">
-										<option value="all parties">All Parties</option>
-										<option value="Liberal">Liberal</option>
-										<option value="NDP">NDP</option>
-										<option value="Conservative">Conservative</option>
-										<option value="Green Party">Green Party</option>
-									</select>
-								</div>
-							</div>
-						<div id="display-info" class="row"></div>
-		    	</div>
+			<!-- When hover over on the map show this box -->
+			<div class="mp-num-con">
+				<ul class="list-unstyled">
+					<div class="d-flex justify-content-center align-items-center">
+						<li id="prov-name" class="mp-num-prov">Province</li>
+					</div>
+					<li class="d-flex justify-content-between">
+						<img class="mp-num-img" src="img/logo/liberal_logo.svg" alt="Liberal's Logo">
+						<p id="lib-num" class="num red">1</p>
+					</li>
+					<li class="d-flex justify-content-between">
+						<img class="mp-num-img" src="img/logo/ndp_logo.svg" alt="NDP's Logo">
+						<p id="ndp-num" class="num orange">2</p>
+					</li>
+					<li class="d-flex justify-content-between">
+						<img class="mp-num-img con-img" src="img/logo/conservative_logo.png" alt="Conservative's Logo">
+						<p id="con-num" class="num blue">3</p>
+					</li>
+					<li class="d-flex justify-content-between">
+						<img class="mp-num-img" src="img/logo/green_logo.svg" alt="Green Logo">
+						<p id="green-num" class="num green">4</p>
+					</li>
+				</ul>
 			</div>
-		</div>
 
+			<!--Modal Box // Eventually take off this modal button-->
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mp-modal">
+			  Launch demo modal
+			</button>
 
-
+			<!-- Modal -->
+			<div class="modal fade" id="mp-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalLabel"></h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+			        </button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<div class="container-fluid" id="test" data-party="page">
+								<div class="title-modal-con">
+									<h1 class="title-modal">Current MP in <span>Province</span></h1>
+									<div class="modal-select">
+										<select name="parties" id="parties">
+											<option value="all parties">All Parties</option>
+											<option value="Liberal">Liberal</option>
+											<option value="NDP">NDP</option>
+											<option value="Conservative">Conservative</option>
+											<option value="Green Party">Green Party</option>
+										</select>
+									</div>
+								</div>
+							<div id="display-info" class="row"></div>
+			    	</div>
+				</div>
+			</div>
 
 		</div>
 		<!-- End of container-fluid -->
