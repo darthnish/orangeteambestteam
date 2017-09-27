@@ -77,16 +77,16 @@ function displayInfo(xml) {
 		info += "<div class='mp-con col-xs-6 col-md-3' data-party='"+ party +"'>" +
 			"<div class='mp-info d-flex justify-content-between'><h4 class='name'>" +
 			mp[i].getElementsByTagName("PersonOfficialFirstName")[0].childNodes[0].nodeValue + " " +
-			mp[i].getElementsByTagName("PersonOfficialLastName")[0].childNodes[0].nodeValue + 
+			mp[i].getElementsByTagName("PersonOfficialLastName")[0].childNodes[0].nodeValue +
 			"</h4>" +
 			"<img src=" + partyImg + " class='party-logo'></div><div id=" + borderCol + " class='line'></div>" +
 			"<p id=" + partyCol + " class='party-name'>" +
-			mp[i].getElementsByTagName("CaucusShortName")[0].childNodes[0].nodeValue + 
+			mp[i].getElementsByTagName("CaucusShortName")[0].childNodes[0].nodeValue +
 			"</p>" +
 			"<p class='constituency'>" +
-			mp[i].getElementsByTagName("ConstituencyName")[0].childNodes[0].nodeValue + 
+			mp[i].getElementsByTagName("ConstituencyName")[0].childNodes[0].nodeValue +
 			"</p>" +
-			"</div>";		
+			"</div>";
 	}
 	$( "#display-info" ).append(info);
 }
@@ -100,7 +100,7 @@ $('#parties').change(function() {
 	$('.mp-con').each(function() {
 
 		$(this).css('display', 'block');
-	
+
 		// Grab party's data attribute
 		var partyDataAttr = $(this).data("party");
 
@@ -114,7 +114,3 @@ $('#parties').change(function() {
 		}
 	});
 });
-
-
-
-

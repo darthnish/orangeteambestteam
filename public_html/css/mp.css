@@ -12,14 +12,18 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+h1 {
+	line-height:unset !important;
+}
+
 .container-fluid--mp{
 	margin-top: 5vh;
 }
 
 .title {
 	font-family: 'Zilla Slab Highlight', cursive;
-	font-size:3rem;
-	text-align:left;
+	font-size:4.5rem;
+	text-align:center;
 	font-weight:600;
 }
 
@@ -28,24 +32,30 @@ body {
 	float:left;
 }
 
+.map-con{
+	width: 80%;
+	margin: auto;
+}
 .mp-select {
 	margin-top:10vh;
 	margin-bottom:10vh;
 }
 
+.text {
+	font-family: 'Lato', sans-serif;
+	margin-top:1.3vh;
+}
 
 /* Select Box */
 #province, #parties {
 	height:7vh;
 	background: none;
-	-webkit-appearance: none;
-    border-radius: 0;
-	text-indent:3vh;
-}
-
-select#province, select#parties {
+	/*-webkit-appearance: none;*/
+  border-radius: 0;
 	font-family:  'Zilla Slab', serif;
-	font-size:2rem;
+	font-size:1.8rem;
+	border:solid 2px black;
+	color:black;
 }
 
 #province {
@@ -53,17 +63,84 @@ select#province, select#parties {
 	margin-left:30px;
 }
 
+@media only screen and (max-width: 660px) {
+	.sec-title {
+		font-size:1.5rem;
+		margin-top:5px
+	}
+
+	#province {
+		font-size:unset;
+		height:unset;
+		margin-left:10px;
+	}
+
+	.title-modal {
+		font-size:2rem;
+	}
+}
+
 /* Map */
-path {
-  fill: ;
+.mpMap {
+	width:100%;
+}
+
+.svg__porv {
+  fill: #484848;
   stroke: ;
   stroke-width: 1;
   transition-duration: 200ms;
   cursor: pointer;
 }
 
-path:hover {
+.svg__porv:hover {
   fill: black;
+}
+
+/* Mp logo and number Box */
+.mp-num-con {
+	width:250px;
+	border:solid 2px black;
+	display:none;
+}
+
+.mp-num-prov {
+	background: black;
+	color:white;
+	font-size:1.8rem;
+	font-family: 'Zilla Slab', serif;
+	width:250px;
+	text-align:center;
+	line-height:70px;
+}
+
+li {
+	height:50px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+li:not(:first-child) {
+	margin-top:10px;
+}
+
+li:first-child {
+	height:70px;
+	margin-bottom:10px;
+}
+
+.mp-num-img {
+	width:100px;
+}
+
+.con-img {
+	width:150px;
+	height:38px;
+}
+
+.num {
+	font-size:1.5rem;
+	line-height:50px;
 }
 
 /* Modal Box */
@@ -85,7 +162,6 @@ path:hover {
 	height:1vh;
 	margin-bottom:5px;
 }
-
 
 .name {
 	display: inline-block;
@@ -124,10 +200,10 @@ path:hover {
 #bg-green { background: #3D9B35; }
 
 /* party color */
-#red { color: #E10020; }
-#orange { color: #F37021; }
-#blue { color: #0C499C; }
-#green { color: #3D9B35; }
+#red, .red{ color: #E10020; }
+#orange, .orange { color: #F37021; }
+#blue, .blue { color: #0C499C; }
+#green, .green { color: #3D9B35; }
 
 .modal {
     display: inline;
@@ -138,4 +214,14 @@ path:hover {
     padding: 1%;
 }
 
+@media only screen and (max-width: 750px) {
+	#parties {
+		font-size:unset;
+		height:unset;
+		margin-left:10px;
+	}
 
+	.title-modal {
+		font-size:2rem;
+	}
+}
