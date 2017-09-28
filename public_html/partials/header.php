@@ -1,5 +1,5 @@
 
-<?php include "mail.php"; ?>
+<?php include "modalMail.php"; ?>
 
 <div class="overlay"></div>
 
