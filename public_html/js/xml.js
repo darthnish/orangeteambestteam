@@ -95,7 +95,7 @@ function displayInfo(xml) {
 function showMpInfo(province) {
 
     var info = "";
-
+    $( "#display-info" ).html("");
     for(var i=0; i<mp.length;i+=1) {
 
         if((mp[i].getElementsByTagName('ConstituencyProvinceTerritoryName')[0].childNodes[0].nodeValue) === province){
