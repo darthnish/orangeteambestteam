@@ -26,7 +26,7 @@ function displayInfo(xml) {
 		party = mp[i].getElementsByTagName("CaucusShortName")[0].childNodes[0].nodeValue;
 		partyImg = "";
 
-		if(party === "Liberal") {
+		/*if(party === "Liberal") {
 			partyImg += "img/logo/liberal_2.svg";
 		}
 		else if(party === "NDP") {
@@ -70,12 +70,12 @@ function displayInfo(xml) {
 		else {
 			partyCol += "green";
 		}
-
+*/
 
 //////// Show contents in the column
 		selectParty = document.getElementById("parties").value;
 
-		info += "<div class='mp-con col-xs-6 col-md-3' data-party='"+ party +"'>" +
+		/*info += "<div class='mp-con col-xs-6 col-md-3' data-party='"+ party +"'>" +
 			"<div class='mp-info d-flex justify-content-between'><h4 class='name'>" +
 			mp[i].getElementsByTagName("PersonOfficialFirstName")[0].childNodes[0].nodeValue + " " +
 			mp[i].getElementsByTagName("PersonOfficialLastName")[0].childNodes[0].nodeValue +
@@ -87,17 +87,41 @@ function displayInfo(xml) {
 			"<p class='constituency'>" +
 			mp[i].getElementsByTagName("ConstituencyName")[0].childNodes[0].nodeValue +
 			"</p>" +
-			"</div>";
+			"</div>";*/
 	}
-	$( "#display-info" ).append(info);
+	/*$( "#display-info" ).append(info);*/
 }
 
-$('#manitoba').click(function() {
-    var info;
-    for(var i=0; i<mp.length;i++) {
-        if((mp[i].getElementsByTagName('ConstituencyProvinceTerritoryName')[0].childNodes[0].nodeValue) === 'Manitoba'){
-            
-            info += "<div class='mp-con col-xs-6 col-md-3' data-party='"+ party +"'>" +
+function showMpInfo(province) {
+
+    var info = "";
+
+    for(var i=0; i<mp.length;i+=1) {
+
+        if((mp[i].getElementsByTagName('ConstituencyProvinceTerritoryName')[0].childNodes[0].nodeValue) === province){
+            var party = mp[i].getElementsByTagName("CaucusShortName")[0].childNodes[0].nodeValue;
+            if(party === "Liberal") {
+                partyImg = "img/logo/liberal_2.svg";
+                borderCol = "bg-red";
+                partyCol = "red";
+            }
+            else if(party === "NDP") {
+                partyImg = "img/logo/ndp_2.svg";
+                borderCol = "bg-orange";
+                partyCol = "orange";
+
+            }
+            else if(party === "Conservative") {
+                partyImg = "img/logo/conservative_2.svg";
+                borderCol = "bg-blue";
+                partyCol = "blue";
+            }
+            else {
+                partyImg = "img/logo/green_2.svg";
+                borderCol = "bg-green";
+                partyCol = "green";
+            }
+            info+= "<div class='mp-con col-xs-6 col-md-3' data-party='"+ party +"'>" +
 			"<div class='mp-info d-flex justify-content-between'><h4 class='name'>" +
 			mp[i].getElementsByTagName("PersonOfficialFirstName")[0].childNodes[0].nodeValue + " " +
 			mp[i].getElementsByTagName("PersonOfficialLastName")[0].childNodes[0].nodeValue +
@@ -113,7 +137,7 @@ $('#manitoba').click(function() {
         }
     }
     $( "#display-info" ).append(info);
-});
+}
 //////////////////////////////////////////////////////////////
 
 // When change select box
