@@ -226,10 +226,35 @@ $(function(){
   });
 
   /////////////////////////////////////////////
-
+  
+  //Modal box tooltip
+  
   // After click province, show modal box
 
 });
 
+
 //Modal
 //$('#myModal').modal(options);
+
+//tooltip js
+var tooltipContainer = document.getElementById('tooltip');
+function showTooltip() {
+
+    tooltipContainer.style.display='block';
+    window.onmousemove = function (e) {
+    var x = e.clientX,
+        y = e.clientY;
+    /*console.log(x);*/
+    tooltipContainer.style.top = (y - 450) + 'px';
+    tooltipContainer.style.left = (x + 20) + 'px';
+    
+    tooltipContainer.style.position = 'fixed';
+    } 
+
+}
+
+function hideTooltip() {
+     tooltipContainer.style.display='none';
+}
+            

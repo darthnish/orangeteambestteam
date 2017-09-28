@@ -103,7 +103,8 @@ h1 {
 .mp-num-con {
 	width:250px;
 	border:solid 2px black;
-	display:none;
+	/*display:none;*/
+     background-color:white;
 }
 
 .mp-num-prov {
@@ -214,6 +215,23 @@ li:first-child {
 .modal-dialog {
     width: 98%;
     padding: 1%;
+}
+
+/*tooltip css */
+#tooltip{
+    display:none;
+}
+/*
+#tooltip:hover{
+    
+}
+*/
+
+.mpMap:hover #tooltip {
+   /* display:block;*/
+    position:fixed;
+    overflow:hidden;
+   
 }
 
 @media only screen and (max-width: 750px) {

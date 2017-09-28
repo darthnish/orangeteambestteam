@@ -7,8 +7,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Zilla+Slab:400,500,500i,600,700" rel="stylesheet">
 		<!-- CSS -->
 		<link rel="stylesheet" href="css/mp.css">
-		<link rel="stylesheet" href="css/header.css">
-		<link rel="stylesheet" href="css/footer.css">
+		<!--<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">-->
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.css">
 		<link rel="stylesheet" href="css/bootstrap-reboot.css">
@@ -43,19 +43,19 @@
 					<p class="text">Click on the map and see your Member of Parlement</p>
 				</div>
 			</div>
-			<div class="map-con">
+			<div class="map-con" onmouseover="showTooltip()" onmouseout="hideTooltip()">
 				<?php include 'partials/svg.php' ?>
 			</div>
 
 		</div>
 		<!-- End of container-fluid -->
 
-		<?php include 'partials/footer.php' ?>
+		<?php /*include 'partials/footer.php'*/ ?>
 
-		<div class="container-fluid container-fluid--mp">
+		<div class="container-fluid container-fluid--mp" id="tooltip">
 
 			<!-- When hover over on the map show this box -->
-			<div class="mp-num-con">
+			<div class="mp-num-con" >
 				<ul class="list-unstyled">
 					<div class="d-flex justify-content-center align-items-center">
 						<li id="prov-name" class="mp-num-prov">Province</li>
@@ -80,10 +80,11 @@
 			</div>
 
 			<!--Modal Box // Eventually take off this modal button-->
-			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mp-modal">
+			
+        </div>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mp-modal">
 			  Launch demo modal
-			</button>
-
+        </button>
 			<!-- Modal -->
 			<div class="modal fade" id="mp-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog modal-lg" role="document">
@@ -112,7 +113,8 @@
 				</div>
 			</div>
 
-		</div>
+		    </div>
+        </div>
 		<!-- End of container-fluid -->
 
 		<!-- JS -->
@@ -121,5 +123,8 @@
 		<script src="js/bootstrap.js"></script>
 		<script src="js/xml.js"></script>
 		<script src="js/mp.js"></script>
+		<script>
+        
+        </script>
 	</body>
 </html>

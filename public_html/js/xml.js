@@ -8,6 +8,7 @@ xhttp.onreadystatechange = function() {
 }
 xhttp.send();
 
+
 //////// Display each Province's contents ////////
 
 function displayInfo(xml) {
@@ -23,7 +24,7 @@ function displayInfo(xml) {
 
 		// Party Logo Img
 		party = mp[i].getElementsByTagName("CaucusShortName")[0].childNodes[0].nodeValue;
-		var partyImg = "";
+		partyImg = "";
 
 		if(party === "Liberal") {
 			partyImg += "img/logo/liberal_2.svg";
@@ -39,7 +40,7 @@ function displayInfo(xml) {
 		}
 
 		// Border Line
-		var borderCol = "";
+		borderCol = "";
 
 		if(party === "Liberal") {
 			borderCol += "bg-red";
@@ -55,7 +56,7 @@ function displayInfo(xml) {
 		}
 
 		// Party Name
-		var partyCol = "";
+		partyCol = "";
 
 		if(party === "Liberal") {
 			partyCol += "red";
@@ -91,6 +92,28 @@ function displayInfo(xml) {
 	$( "#display-info" ).append(info);
 }
 
+$('#manitoba').click(function() {
+    var info;
+    for(var i=0; i<mp.length;i++) {
+        if((mp[i].getElementsByTagName('ConstituencyProvinceTerritoryName')[0].childNodes[0].nodeValue) === 'Manitoba'){
+            
+            info += "<div class='mp-con col-xs-6 col-md-3' data-party='"+ party +"'>" +
+			"<div class='mp-info d-flex justify-content-between'><h4 class='name'>" +
+			mp[i].getElementsByTagName("PersonOfficialFirstName")[0].childNodes[0].nodeValue + " " +
+			mp[i].getElementsByTagName("PersonOfficialLastName")[0].childNodes[0].nodeValue +
+			"</h4>" +
+			"<img src=" + partyImg + " class='party-logo'></div><div id=" + borderCol + " class='line'></div>" +
+			"<p id=" + partyCol + " class='party-name'>" +
+			mp[i].getElementsByTagName("CaucusShortName")[0].childNodes[0].nodeValue +
+			"</p>" +
+			"<p class='constituency'>" +
+			mp[i].getElementsByTagName("ConstituencyName")[0].childNodes[0].nodeValue +
+			"</p>" +
+			"</div>";
+        }
+    }
+    $( "#display-info" ).append(info);
+});
 //////////////////////////////////////////////////////////////
 
 // When change select box
