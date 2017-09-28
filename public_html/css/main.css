@@ -1,6 +1,5 @@
-@import "footer.css";
-@import "header.css";
-@import "mail.css";
+@import "partials/footer.css";
+@import "partials/header.css";
 @import "css/landingpage.css";
 
 @media (min-width: 768px) {
