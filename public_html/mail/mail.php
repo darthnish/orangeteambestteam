@@ -10,7 +10,7 @@ $mail = new PHPMailer(true);                              // Passing `true` enab
 try {
 
     //Recipients
-    $mail->setFrom('from@example.com', 'Mailer');
+    $mail->setFrom('canadaparties@canada.gv', 'CanadaParties');
     $mail->addAddress($_POST['subscribe-email']);
     $mail->addReplyTo($_POST['subscribe-email'], 'Information');
 
@@ -24,8 +24,7 @@ try {
     //Content
     $mail->isHTML(true); // Set email format to HTML
 
-    $message="<header><style>@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Zilla+Slab:400,500,500i,600,700')</style></header>\n";
-    $message.="<body><div style='width: 500px; height: auto; background: white; display: block; margin: auto; '>\n";
+    $message="<body><div style='width: 500px; height: auto; background: white; display: block; margin: auto; '>\n";
     $message.=     "<div style='width: 100%; height: 10%; padding-top: 1em; padding-left: 6%;'>\n";
     $message.=         "<img style='width: 25%; height: auto;' src='cid:logo' alt='logo'>\n";
     $message.=     "</div>\n";
@@ -59,7 +58,7 @@ try {
     $message.=     "</div>\n"; //close "mail_body"
     $message.=     "<div style='padding-top: 1em; width: 100%; height: auto; text-align: center; '>\n";
     $message.=         "<div style='display: block; margin: auto; width: 300px; height: 60px; border-top: 1px gray solid; '>\n";
-    $message.=             "<p style='font-family: 'Lato', sans-serif; font-size: .8em; color: #231f20; padding-top: 1em; '>© Copyright 2017, Group Project By Orange Team. </p>\n";
+    $message.=             "<p style='font-family: 'Lato', sans-serif; font-size: .7em; color: #231f20; padding-top: 1em; '>© Copyright 2017, Group Project By Orange Team. </p>\n";
     $message.=         "</div>\n";
     $message.=     "</div>\n"; //close "mail_footer"
     $message.= "</div></body>\n"; //close "mail_template"
