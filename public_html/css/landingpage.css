@@ -1,0 +1,66 @@
+*{
+ box-sizing: border-box;
+ margin:0px;
+ padding:0px;
+
+}
+.row.no-pad {
+  margin-right:0px;
+  margin-left:0px;
+}
+.row.no-pad > [class*='col-'] {
+  padding-right:3px;
+  padding-left:3px;
+}
+.overlay{
+    background-color:black;
+    height:100vh;
+    opacity: 0.5;   
+}
+
+.fill {
+    min-height: 100%;
+    height: 100vh;
+}
+
+.party-logo{
+    width:300px;   
+}
+
+.main-content{
+    top:40%;
+    position:absolute;
+    left:50%;
+    margin-left:-133px;
+}
+
+.bg-video{
+    position:absolute;
+    z-index:-1;
+    height:100vh;
+    width:100%;
+}
+
+video{
+    width:100%;  
+}
+
+.overlay.liberal:hover{
+    background-color:#D71920;
+    opacity:0.8;
+}
+
+.overlay.conservative:hover{
+    background-color:#0C499C;
+    opacity:0.8;
+}
+
+.overlay.ndp:hover{
+    background-color:#F37021;
+    opacity:0.8;
+}
+
+.overlay.green-party:hover{
+    background-color:#3D9B35;
+    opacity:0.8;
+}
