@@ -26,6 +26,7 @@ body {
   color: #000;
   font-weight: 600;
   display: flex;
+  padding-top: 20px;
   align-items: center;
   font-family: "Zilla Slab", serif;
   margin-bottom: 55px; }

@@ -31,6 +31,6 @@ $(document).ready(function(){
 });
 
 //Enables Modal
-$('#results').on('shown.bs.modal', function () {
-    $('#myInput').focus()
-})
+$('#results-modal').on('shown.bs.modal', function () {
+
+});

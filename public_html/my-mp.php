@@ -19,7 +19,7 @@
 	</head>
 
 	<body>
-		<?php include "partials/header_2.php";  ?>
+		<?php include "partials/header_2.php"; ?>
 		<div class="container-fluid container-fluid--mp">
 
 			<h1 class="title">Who's My MP</h1>
@@ -51,7 +51,6 @@
 			<div class="map-con" onmouseover="showTooltip()" onmouseout="hideTooltip()">
 				<?php include 'partials/svg.php' ?>
 			</div>
-
 		</div>
 		<!-- End of container-fluid -->
 

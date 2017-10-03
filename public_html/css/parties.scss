@@ -11,6 +11,7 @@ $is-h1-font:'Zilla Slab Highlight', serif;
 $is-h2-font:'Zilla Slab', serif;
 $is-body-font:'Lato', sans-serif;
 $is-body-size: 1rem;
+$is-body-size: 1rem;
 
 
 @mixin body-type(){
@@ -55,6 +56,7 @@ body{
     color: $black;
     font-weight: 600;
     display: flex;
+    padding-top: 20px;
     align-items: center;
     font-family:$is-h2-font;
     margin-bottom: 55px;

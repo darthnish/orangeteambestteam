@@ -165,18 +165,19 @@
                              ?>
                          </div>
                      </section>
-                     <a class="btn btn-primary light-button results results--main" href="#" data-toggle="modal" data-target="#exampleModal">View Results</a>
+                     <a class="btn btn-primary light-button results results--main" href="#" data-toggle="modal" data-target="#results-modal">View Results</a>
                  </div>
              </div>
          </div>
      </div>
-    <a class="btn btn-primary light-button results  d-lg-none" href="#" id="">Results</a>
+    <a class="btn btn-primary light-button results  d-lg-none" href="#" data-toggle="modal" data-target="#results-modal">Results</a>
 
-     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+     <!-- MODAL BOX -->
+     <div class="modal fade" id="results-modal" tabindex="-1" role="dialog" aria-labelledby="results-modal" aria-hidden="true">
          <div class="modal-dialog" role="document">
              <div class="modal-content">
                  <div class="modal-header">
-                     <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                     <h5 class="modal-title" id="exampleModalLabel">Results</h5>
                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                          <span aria-hidden="true">&times;</span>
                      </button>
