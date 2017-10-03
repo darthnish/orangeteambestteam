@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Google Icon  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="shortcut icon" type="image/ico" href="favicon.ico">
     <title>Compare Parties</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/main.css">
