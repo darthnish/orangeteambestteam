@@ -6,7 +6,7 @@
 		<!-- Google fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Zilla+Slab:400,500,500i,600,700" rel="stylesheet">
 		<!-- CSS -->
-
+        <title>Compare Parties</title>
 		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/footer.css">
 		<link rel="stylesheet" href="css/mp.css">

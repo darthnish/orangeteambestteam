@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Google Icon  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">\
+    <title>Compare Parties</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
@@ -194,44 +195,6 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
-
-    <script>
-        //Enables Smooth Scrolling
-        $(document).scroll(function() {
-            var yaxis = $(document).scrollTop(),
-                sidebar = $("#sidebar");
-            if(yaxis >= 120)  {
-                sidebar.addClass("fixed-bar");
-            } else {
-                sidebar.removeClass("fixed-bar");
-            }
-        });
-
-        //ADD TOOL TIP
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip(false)
-        });
-
-        //Enables Smooth Scrolling
-        $(document).ready(function(){
-            $('a[href^="#"]').on('click',function (e) {
-                e.preventDefault();
-
-                var target = this.hash;
-                var $target = $(target);
-
-                $('html, body').stop().animate({
-                    'scrollTop': $target.offset().top
-                }, 800, 'swing', function () {
-                    window.location.hash = target;
-                });
-            });
-        });
-
-        //Enables Modal
-        $('#results').on('shown.bs.modal', function () {
-            $('#myInput').focus()
-        })
-    </script>
+    <script src="js/compare.js"></script>
   </body>
 </html>
