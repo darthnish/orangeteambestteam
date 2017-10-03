@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/parties/parties.css">
+    <link rel="stylesheet" href="css/parties.css">
     <link rel="stylesheet" href="css/compare.css">
     <!--Google font  -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Zilla+Slab:400,500,500i,600,700" rel="stylesheet">
@@ -80,7 +80,7 @@
                              </div>
                          </section>
                      </div>
-                     <div class="main-compare__container d-flex flex-column flex-md-row justify-content-between" id="Foreign Policy">
+                     <div class="main-compare__container d-flex flex-column flex-md-row justify-content-between" id="ForeignPolicy">
                          <section class="topic-policies">
                              <h1 class="section-heading"><span class="policy-icon"><?php echo $partyPolicies->ForeignPolicy ?></span>Foreign Policy</h1>
                              <div class="row d-flex flex-wrap no-gutters" id="policy-section">
@@ -184,8 +184,6 @@
              </div>
          </div>
      </div>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
