@@ -177,7 +177,10 @@ input[type=checkbox]:checked + .border--green-2::after {
   opacity: 0;
   z-index: -1; }
 
-.sidebar-icon {
+a:hover {
+  text-decoration: none; }
+
+a.sidebar-icon {
   width: 25px;
   padding-bottom: 7px;
   display: flex;
@@ -186,17 +189,21 @@ input[type=checkbox]:checked + .border--green-2::after {
   margin: 0 30px 10px 0;
   position: relative;
   cursor: pointer; }
+  a.sidebar-icon:hover {
+    box-shadow: inset 0 -0.125em white, inset 0 -0.5em #000; }
 
-.sidebar-icon--active {
-  border-bottom: 2px solid #fff; }
-
-.sidebar-icon::after {
+/*.sidebar-icon--active{
+  border-bottom: 2px solid $white;
+}*/
+/*
+.sidebar-icon::after{
   content: "\E876";
   font-size: 2.5rem;
   color: red;
-  top: -3px;
-  position: absolute; }
-
+  top:-3px;
+  position: absolute;
+}
+*/
 .tooltip {
   text-transform: uppercase;
   font-weight: 800;
