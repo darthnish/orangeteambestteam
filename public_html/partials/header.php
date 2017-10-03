@@ -5,7 +5,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light nav-desktop nav-transparent navbar-static-top">
 	<div class="container-fluid">
-		 <a class="navbar-brand" href="#">
+		 <a class="navbar-brand" href="index.php">
       		<img src="img/logo/logo_white.svg" alt="img">
     	</a>
 		<button class="navbar-toggle nav-mobile no-bg-button" data-toggle="collapse">

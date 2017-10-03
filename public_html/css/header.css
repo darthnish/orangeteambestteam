@@ -22,7 +22,7 @@ body {
     .modal .modal-content .modal-header .close {
       font-weight: 100;
       font-size: 4rem;
-      padding-bottom: .2em; }
+      padding-bottom: 0.2em; }
     .modal .modal-content .modal-header h5 {
       font-size: 2em;
       font-weight: 600; }
@@ -39,20 +39,20 @@ body {
   padding: 0; }
 
 .nav-li {
-  margin-left: .5em;
-  margin-right: .5em; }
+  margin-left: 0.5em;
+  margin-right: 0.5em; }
 
 .nav-a {
   font-family: "Zilla Slab", serif;
   font-size: 1.1rem;
-  font-weight: 500;
-  margin-top: 3px; }
+  font-weight: 500; }
 
 .nav-party {
   cursor: pointer; }
 
 .nav-compare {
-  border: solid rgba(225, 225, 225, 0.7) 1px; }
+  border: solid rgba(225, 225, 225, 0.7) 1px;
+  height: 100%; }
 
 .nav-compare-black {
   border: solid #231f20 1px; }
@@ -63,7 +63,6 @@ body {
 @media screen and (min-width: 991px) {
   .nav-desktop {
     padding: 0.5em 0 !important; } }
-
 .nav-desktop i {
   font-size: 2em; }
 
@@ -76,9 +75,6 @@ body {
 
 .nav-item {
   margin-left: 25px; }
-
-.navbar-brand {
-  margin-bottom: 15px; }
 
 .row {
   margin: 0; }
@@ -125,6 +121,8 @@ body {
   .mobile_menu_top .nav-subscribe {
     height: 100%;
     width: 10%; }
+    .mobile_menu_top .nav-subscribe img {
+      width: 120%; }
     .mobile_menu_top .nav-subscribe i {
       font-size: 2.5em;
       color: #231f20; }
@@ -161,3 +159,5 @@ body {
 .mobile_menu_sns {
   height: 10%;
   width: 100%; }
+
+/*# sourceMappingURL=header.css.map */

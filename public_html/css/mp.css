@@ -117,17 +117,17 @@ h1 {
 	line-height:70px;
 }
 
-li {
+.mp-num-con li {
 	height:50px;
 	padding-left:30px;
 	padding-right:30px;
 }
 
-li:not(:first-child) {
+.mp-num-con li:not(:first-child) {
 	margin-top:10px;
 }
 
-li:first-child {
+.mp-num-con li:first-child {
 	height:70px;
 	margin-bottom:10px;
 }
@@ -223,7 +223,7 @@ li:first-child {
 }
 /*
 #tooltip:hover{
-    
+
 }
 */
 
@@ -231,7 +231,7 @@ li:first-child {
    /* display:block;*/
     position:fixed;
     overflow:hidden;
-   
+
 }
 
 @media only screen and (max-width: 750px) {

@@ -44,6 +44,10 @@
     margin-right: 10%;
     text-decoration: none;
 }
+.innerpage-footer-sns a img {
+    width: 20px;
+    height: 20px;
+}
 
 .innerpage-footer li a{
     text-decoration: none;

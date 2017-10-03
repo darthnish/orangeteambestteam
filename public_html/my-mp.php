@@ -6,15 +6,19 @@
 		<!-- Google fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Zilla+Slab:400,500,500i,600,700" rel="stylesheet">
 		<!-- CSS -->
+
+		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/footer.css">
 		<link rel="stylesheet" href="css/mp.css">
-		<!--<link rel="stylesheet" href="css/header.css">
-		<link rel="stylesheet" href="css/footer.css">-->
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.css">
 		<link rel="stylesheet" href="css/bootstrap-reboot.css">
+		<!-- Google Icon  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
 
 	<body>
+		<?php include "partials/header_2.php";  ?>
 		<div class="container-fluid container-fluid--mp">
 
 			<h1 class="title">Who's My MP</h1>
@@ -80,7 +84,7 @@
 			</div>
 
 			<!--Modal Box // Eventually take off this modal button-->
-			
+
         </div>
         <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mp-modal">
 			  Launch demo modal
@@ -117,6 +121,7 @@
         </div>
 		<!-- End of container-fluid -->
 
+		<?php include 'partials/footer_innerpage.php';?>
 		<!-- JS -->
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
@@ -124,7 +129,7 @@
 		<script src="js/xml.js"></script>
 		<script src="js/mp.js"></script>
 		<script>
-        
+
         </script>
 	</body>
 </html>

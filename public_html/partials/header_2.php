@@ -5,7 +5,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light nav-desktop navbar-static-top">
 	<div class="container-fluid">
-		 <a class="navbar-brand" href="#">
+		 <a class="navbar-brand" href="index.php">
       		<img src="img/logo/logo_black.svg" alt="img">
     	</a>
 		<button class="navbar-toggle nav-mobile no-bg-button" data-toggle="collapse">
@@ -24,7 +24,7 @@
 	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=conservative">
 	                         <img src="img/logo/conservative_logo.png" width="120" height="auto" alt="liberalParty">
 	                    </a>
-	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=npd">
+	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=ndp">
 	                         <img src="img/logo/ndp_logo.svg" width="120" height="40" alt="liberalParty">
 	                    </a>
 	                    <a class="dropdown-item nav-a nav-a-img" href="parties.php?party=green">

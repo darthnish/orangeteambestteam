@@ -17,7 +17,7 @@
 .overlay{
     background-color:black;
     height:100vh;
-    opacity: 0.5;   
+    opacity: 0.5;
 }
 
 .fill {
@@ -26,7 +26,7 @@
 }
 
 .party-logo{
-    width:300px;   
+    width:300px;
 }
 
 .main-content{
@@ -44,7 +44,7 @@
 }
 
 video{
-    width:100%;  
+    width:100%;
 }
 
 .overlay.liberal:hover{
