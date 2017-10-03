@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Google Icon  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">\
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Compare Parties</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/main.css">
