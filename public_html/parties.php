@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><?php echo ucfirst($_GET['party']). ' Page' ?></title>
+    <title>Make Your Vote - <?php echo ucfirst($_GET['party']). ' Party Page' ?></title>
     <link rel="shortcut icon" type="image/ico" href="favicon.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap-grid.css">
