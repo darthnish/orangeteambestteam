@@ -38,7 +38,7 @@
     </div>
     <div class="container-fluid ">
         <div class="row no-pad mobile-bg">
-           <div class="col-md-3 fill party">
+           <div class="col-lg-3 col-md-12 col-sm-12 fill party">
                <div class="landing-overlay liberal">
                    <div class="main-content liberal-align">
                         <img class ="party-logo" src ="img/logo/liberal_white.svg" alt="Liberal Party">
@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 fill party">
+            <div class="col-lg-3  col-md-12 col-sm-12 fill party">
                 <div class="landing-overlay conservative">
                    <div class="main-content">
                         <img class ="party-logo" src ="img/logo/conservative_white.png" alt="Conservative">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 fill party">
+            <div class="col-lg-3  col-md-12 col-sm-12 fill party">
                 <div class="landing-overlay green-party">
                    <div class="main-content ">
                         <img class ="party-logo" src ="img/logo/green_white.svg" alt="Green Party">
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 fill party">
+            <div class="col-lg-3 col-md-12 col-sm-12 fill party">
                 <div class="landing-overlay ndp">
                    <div class="main-content">
                         <img class ="party-logo" src ="img/logo/ndp_white.svg" alt="LNDP">
