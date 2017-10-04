@@ -1,3 +1,48 @@
+/*results modal*/
+.modal-body div{
+  margin-bottom:20px;
+  height:60px;
+  padding: 20px 10px 0 20px;
+  color:white;
+}
+
+.results-img{
+    width:180px;
+    padding:10px 20px;
+}
+#liberal-results{
+    background-image:url(../img/logo/liberal_white.svg);
+    background-size:80px 70%;
+    background-repeat: no-repeat;
+    background-position: 5% 0;
+    text-align: right;
+}
+
+#conservative-results{
+    background-image:url(../img/logo/conservative_white.png);
+    background-size:80px;
+    background-repeat: no-repeat;
+    background-position: 5% 45%;
+    text-align: right;
+   /* background-size:contain;*/
+}
+
+#ndp-results{
+    background-image:url(../img/logo/ndp_white.svg);
+    background-size:80px 70%;
+    background-repeat: no-repeat;
+    background-position: 5% 0;
+    text-align: right;
+}
+
+#green-results{
+    background-image:url(../img/logo/green_white.svg);
+    background-size:80px 70%;
+    background-repeat: no-repeat;
+    background-position: 5% 0;
+    text-align: right;
+}
+
 .is-dark {
   color: #000; }
 

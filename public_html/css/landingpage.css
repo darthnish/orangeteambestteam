@@ -3,6 +3,7 @@
  margin:0px;
  padding:0px;
 
+
 }
 .row.no-pad {
   margin-right:0px;
@@ -12,7 +13,7 @@
   padding-right:3px;
   padding-left:3px;
 }
-.overlay{
+.landing-overlay{
     background-color:black;
     height:100vh;
     opacity: 0.5;   
@@ -34,6 +35,23 @@
     margin-left:-133px;
 }
 
+.main-content p{
+    color:white;
+}
+
+.main-content a{
+    border:1px solid white;
+    text-align: center;
+    color:white;
+}
+
+.main-content a:hover{
+    background-color:white;
+    text-align: center;
+    color:black;
+}
+
+
 .bg-video{
     position:absolute;
     z-index:-1;
@@ -45,22 +63,102 @@ video{
     width:100%;  
 }
 
-.overlay.liberal:hover{
-    background-color:#D71920;
-    opacity:0.8;
+
+
+.liberal-align{
+    margin-top:-40px;
 }
 
-.overlay.conservative:hover{
-    background-color:#0C499C;
-    opacity:0.8;
+@media only screen and (min-width: 767px){
+    .bg-video{
+        overflow-y:hidden !important;
+    }
+    
+    .landing-overlay.liberal:hover{
+        background-color:#D71920;
+        opacity:0.8;
+    }
+
+    .landing-overlay.conservative:hover{
+        background-color:#0C499C;
+        opacity:0.8;
+    }
+
+    .landing-overlay.ndp:hover{
+        background-color:#F37021;
+        opacity:0.8;
+    }
+
+    .landing-overlay.green-party:hover{
+        background-color:#3D9B35;
+        opacity:0.8;
+    }
+    
+/*    .navbar-brand {
+     width:300px;
+        overflow:hidden;
+    }*/
 }
 
-.overlay.ndp:hover{
-    background-color:#F37021;
-    opacity:0.8;
-}
+@media only screen and (max-width:567px){
+    .mobile-bg{
+        background-image:url('../img/canada.jpg');
+        background-size:cover;
+        background-attachment:fixed;
+    }
+    .landing-overlay,.main-content{
+        height:300px;
+    }
+    
+    .main-content a{
+        text-align: center;
+        width:45%;
+        margin-bottom:20px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .party{
+        margin:10px 0px;
+       
+    }
+    video{
+        display:none;
+    }
+    
+    .fill{
+        height:300px;
+    }
+    
+    .main-content{
+        top:10%;
+        position:absolute;
+        left:50%;
+        margin-left:-133px;
+        
+    }
+    
+    .main-content img{
+        padding:50px;
+    }
+    
+    .liberal{
+      background-color:#D71920;
+      opacity:1;
+    }
+    
+     .ndp{
+      background-color:#F37021;
+      opacity:1;
+    }
+    
+     .conservative{
+      background-color:#0C499C;
+      opacity:1;
+    }
+    .green-party{
+      background-color:#3D9B35;
+      opacity:1;
+    }
 
-.overlay.green-party:hover{
-    background-color:#3D9B35;
-    opacity:0.8;
 }
