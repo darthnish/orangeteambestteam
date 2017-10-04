@@ -123,27 +123,27 @@
                         <div class="d-flex plus-each align-items-center d-lg-block">
                         <label class='form-check-label d-flex align-items-center'>
                             <div class="party-option">
-                                <input class='topic-policies__radio' type='checkbox' name='green' id='green' value='green' checked>
+                                <input class='topic-policies__radio' type='checkbox' name='green' id='green' value='green' checked data-party="green">
                                 <span class='custom-radio__topic color--green border--green-2'></span>
                             </div>
                             <p class="party-select__name g-p"><span class="e-none">Green Party</span></p>
                         </label>
                         <label class='form-check-label d-flex align-items-center'>
                             <div class="party-option">
-                                <input class='topic-policies__radio' type='checkbox' name='ndp' id='ndp' value='ndp' checked>
+                                <input class='topic-policies__radio' type='checkbox' name='ndp' id='ndp' value='ndp' data-party="ndp" checked>
                                 <span class='custom-radio__topic border--ndp-2'></span>
                             </div>
                             <p class="party-select__name n-p"><span class="e-none">NDP</span></p>
                         </label> <label class='form-check-label d-flex align-items-center'>
                             <div class="party-option">
-                                <input class='topic-policies__radio' type='checkbox' name='liberal' id='liberal' value='liberal' checked>
+                                <input class='topic-policies__radio' type='checkbox' name='liberal' id='liberal' value='liberal' data-party="liberal" checked>
                                 <span class='custom-radio__topic border--liberal-2'></span>
                             </div>
                             <p class="party-select__name l-p"><span class="e-none">Liberal</span></p>
                         </label>
                         <label class='form-check-label d-flex align-items-center'>
                             <div class="party-option">
-                                <input class='topic-policies__radio' type='checkbox' name='green' id='green' value='green' checked>
+                                <input class='topic-policies__radio' type='checkbox' name='green' id='conservative' value='green' data-party="conservative" checked>
                                 <span class='custom-radio__topic border--conservative-2'></span>
                             </div>
                             <p class="party-select__name c-p"><span class="e-none">Conservative</span></p>
@@ -177,12 +177,17 @@
          <div class="modal-dialog" role="document">
              <div class="modal-content">
                  <div class="modal-header">
-                     <h5 class="modal-title" id="exampleModalLabel">Results</h5>
+                     <h5 class="modal-title results-title" id="exampleModalLabel">Results</h5>
                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                          <span aria-hidden="true">&times;</span>
                      </button>
                  </div>
                  <div class="modal-body">
+                     <div class ="background--liberal" id="liberal-results">Liberal</div>
+                     <div class ="background--ndp" id="ndp-results">NDP</div>
+                     <div class ="background--green" id="green-results">Green</div>
+                     <div class ="background--conservative" id="conservative-results">Conservative</div>
+                     <div id ="party-alignment" style="background-color:black;height:200px;">Results</div>
                  </div>
              </div>
          </div>
