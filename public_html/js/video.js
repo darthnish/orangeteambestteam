@@ -1,5 +1,5 @@
 // randomizing the party list
-var parties = $(".party");
+var parties = $(".party ");
 for(var i = 0; i < parties.length; i++){
     var target = Math.floor(Math.random() * parties.length -1) + 1;
     var target2 = Math.floor(Math.random() * parties.length -1) +1;
