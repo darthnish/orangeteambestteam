@@ -183,11 +183,11 @@
                      </button>
                  </div>
                  <div class="modal-body">
-                     <div class ="background--liberal" id="liberal-results">Liberal</div>
-                     <div class ="background--ndp" id="ndp-results">NDP</div>
-                     <div class ="background--green" id="green-results">Green</div>
-                     <div class ="background--conservative" id="conservative-results">Conservative</div>
-                     <div id ="party-alignment" style="background-color:black;height:200px;">Results</div>
+                     <div class ="background--liberal" id="liberal-results">100%</div>
+                     <div class ="background--ndp" id="ndp-results"></div>
+                     <div class ="background--green" id="green-results"></div>
+                     <div class ="background--conservative" id="conservative-results"></div>
+                     <div id ="party-alignment" style="background-color:black;height:300px;"></div>
                  </div>
              </div>
          </div>

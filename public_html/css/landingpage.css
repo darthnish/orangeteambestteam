@@ -70,7 +70,7 @@ video{
 }
 
 @media only screen and (min-width: 767px){
-    *{
+    .bg-video{
         overflow-y:hidden !important;
     }
     
@@ -94,10 +94,10 @@ video{
         opacity:0.8;
     }
     
-    .navbar-brand {
- /*    width:300px;*/
+/*    .navbar-brand {
+     width:300px;
         overflow:hidden;
-    }
+    }*/
 }
 
 @media only screen and (max-width:567px){
