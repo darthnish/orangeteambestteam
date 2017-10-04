@@ -31,7 +31,7 @@
 				<div class="d-flex justify-content-center">
 					<h1 class="sec-title">Select Your</h1>
 					<select name="province" id="province">
-						<option value="Province">Province</option>
+						<option value="Province" disbaled>Province</option>
 						<option value="Ontario">Ontario</option>
 						<option value="British Columbia">British Columbia</option>
 						<option value="Quebec">Quebec</option>
