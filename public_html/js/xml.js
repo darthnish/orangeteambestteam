@@ -141,7 +141,7 @@ function showMpInfo(province) {
 
 $('#province').change(function() {
    showMpInfo($(this).val()); 
-/*   $('#mp-modal').dialog('open');*/
+   $('#mp-modal').modal('show');
    console.log($(this).val());
 });
 //////////////////////////////////////////////////////////////

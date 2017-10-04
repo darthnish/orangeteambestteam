@@ -32,7 +32,7 @@
     <div class="container-fluid bg-video">
          <div class="row">
              <div class="col-md-12">
-                 <video src="videos/canada.mp4" class="vid" muted autoplay loop></video>
+                 <video src="videos/canada.mp4" class="vid" muted autoplay loop preload="auto"></video>
              </div>
          </div>
     </div>
