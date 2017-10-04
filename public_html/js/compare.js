@@ -118,6 +118,8 @@ $(document).ready(function(){
             $('#conservative-results').hide();
             $('#green-results').hide();
             $('.results-title').html("Please select a party")
+            resultsP.innerText = "Please vote on at least one topic.";
+            partyAlignment.appendChild(resultsP);
         }
         
         else {
