@@ -89,9 +89,6 @@
 			<!--Modal Box // Eventually take off this modal button-->
 
         </div>
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mp-modal">
-			  Launch demo modal
-        </button>
 			<!-- Modal -->
 			<div class="modal fade" id="mp-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				<div class="modal-dialog modal-lg" role="document">
