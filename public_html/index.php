@@ -6,6 +6,8 @@
    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Make Your Vote - Home</title>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/landingpage.css">
     <link rel="stylesheet" href="css/main.css">

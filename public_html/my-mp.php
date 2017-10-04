@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Who's my MP</title>
+        <title>Make Your Vote - Who's My MP</title>
 		<!-- Google fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Zilla+Slab:400,500,500i,600,700" rel="stylesheet">
         <link rel="shortcut icon" type="image/ico" href="favicon.ico">
@@ -116,7 +116,6 @@
 			    	</div>
 				</div>
 			</div>
-
 		    </div>
         </div>
 		<!-- End of container-fluid -->
