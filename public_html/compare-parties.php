@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Make Your Vote - Comparing Parties</title>
     <!-- Google Icon  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -21,7 +21,8 @@
     <link rel="stylesheet" href="css/compare.css">
     <!--Google font  -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Zilla+Slab:400,500,500i,600,700" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,400i,500,500i,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:400,700" rel="stylesheet">
   </head>
   <?php
 

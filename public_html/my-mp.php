@@ -5,6 +5,9 @@
         <title>Make Your Vote - Who's My MP</title>
 		<!-- Google fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Zilla+Slab:400,500,500i,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:400,400i,500,500i,600,700" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="shortcut icon" type="image/ico" href="favicon.ico">
 		<!-- CSS -->
         <title>Compare Parties</title>

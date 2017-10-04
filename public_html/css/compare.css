@@ -274,7 +274,8 @@ a.sidebar-icon {
 
 @media (max-width: 991px) {
   .fixed-bar {
-    transform: translate(0, 0); }
+    transform: translate(0, 0);
+    overflow-y:hidden;}
   .e-none, .results--main {
     display: none; }
   .results {
