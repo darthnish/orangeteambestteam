@@ -80,7 +80,7 @@
 
 	"ndp": {
 		"leader": "Tom Mulcair",
-		"description": "The Liberal Party is the oldest federal political party in Canada. The party generaly sits to the left of the Conservative Party and to the right of the New Democratic Party.",
+		"description": "The New Democratic Party is a social democratic political party in Canada Who sits on the very left of the Canadian political spectrum",
 		"twitter": "https://twitter.com/ndp",
 		"facebook": "https://www.facebook.com/NDP.NPD/",
 		"senate": 0,
@@ -159,7 +159,7 @@
 
 	"conservative": {
 		"leader": "Andrew Sheer",
-		"description": "The Liberal Party is the oldest federal political party in Canada. The party generaly sits to the left of the Conservative Party and to the right of the New Democratic Party.",
+		"description": "The Conservative Party is the successor to multiple right-wing parties. It is the most right out of all the parties in Canada",
 		"twitter": "http://facebook.com/cpcpcc",
 		"facebook": "https://twitter.com/cpc_hq/",
 		"senate": 37,
@@ -238,7 +238,7 @@
 	},
 	"green": {
 		"leader": "Elizabeth May",
-		"description": "The Liberal Party is the oldest federal political party in Canada. The party generaly sits to the left of the Conservative Party and to the right of the New Democratic Party.",
+		"description": "The Green Party Of Canada is multi-issue political party that focuses on ecological wisdom, social justice, grassroots democracy and non-violence.",
 		"twitter": "https://twitter.com/canadiangreens",
 		"facebook": "https://www.facebook.com/GreenPartyofCanada",
 		"senate": 0,
