@@ -15,33 +15,35 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
- 
-    
-    
+
+
+
     <!-- Google font  -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+
     <style>
 
     </style>
 </head>
-<body>
+<body class="homepage">
     <?php include "partials/header_2.php";?>
-    <div class="container-fluid bg-video">
+    <div class="container-fluid bg-video homepage_container">
          <div class="row">
              <div class="col-md-12">
                  <video src="videos/canada.mp4" class="vid" muted autoplay loop></video>
              </div>
          </div>
     </div>
-    <div class="container-fluid ">
+    <div class="container-fluid homepage_container">
         <div class="row no-pad mobile-bg">
            <div class="col-md-3 fill party">
                <div class="landing-overlay liberal">
                    <div class="main-content liberal-align">
-                        <img class ="party-logo" src ="img/logo/liberal_white.svg" alt="Liberal Party">
+                       <div class="homepage_logo_img">
+                           <img class ="party-logo" src ="img/logo/liberal_white.svg" alt="Liberal Party">
+                       </div>
                         <!--<p>Lorem Ipsum is simply dummy dummy</p>-->
                         <a class="nav-link nav-a e temp-size" href="parties.php?party=liberal">Learn More</a>
                     </div>
@@ -50,7 +52,9 @@
             <div class="col-md-3 fill party">
                 <div class="landing-overlay conservative">
                    <div class="main-content">
-                        <img class ="party-logo" src ="img/logo/conservative_white.png" alt="Conservative">
+                       <div class="homepage_logo_img">
+                           <img class ="party-logo" src ="img/logo/conservative_white.png" alt="Conservative">
+                        </div>
                         <!--<p>Lorem Ipsum is simply dummy dummy</p>-->
                         <a class="nav-link nav-a  temp-size" href="parties.php?party=conservative">Learn More</a>
                     </div>
@@ -59,7 +63,9 @@
             <div class="col-md-3 fill party">
                 <div class="landing-overlay green-party">
                    <div class="main-content ">
-                        <img class ="party-logo" src ="img/logo/green_white.svg" alt="Green Party">
+                       <div class="homepage_logo_img">
+                           <img class ="party-logo" src ="img/logo/green_white.svg" alt="Green Party">
+                       </div>
                         <!--<p>Lorem Ipsum is simply dummy dummy</p>-->
                         <a class="nav-link nav-a  temp-size" href="parties.php?party=green">Learn More</a>
                     </div>
@@ -68,7 +74,9 @@
             <div class="col-md-3 fill party">
                 <div class="landing-overlay ndp">
                    <div class="main-content">
-                        <img class ="party-logo" src ="img/logo/ndp_white.svg" alt="LNDP">
+                       <div class="homepage_logo_img">
+                           <img class ="party-logo" src ="img/logo/ndp_white.svg" alt="LNDP">
+                       </div>
                         <!--<p>Lorem Ipsum is simply dummy dummy</p>-->
                         <a class="nav-link nav-a  temp-size" href="parties.php?party=ndp">Learn More</a>
                     </div>
