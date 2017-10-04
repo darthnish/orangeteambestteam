@@ -22,9 +22,9 @@ $(document).ready(function(){
          checkLocalStorage = localStorage.getItem(topics[i]);
          if(checkLocalStorage!== "undefined") {
             $('input[name="' + topics[i] + '"][value="' + checkLocalStorage + '"]').attr('checked', true);
-             console.log("working2");
+            
         }
-        console.log("working");
+        
      }
     
     $('.flex-icons a[href^="#"], .solid-button').on('click',function (e) {
