@@ -99,7 +99,66 @@ video{
         overflow:hidden;
     }*/
 }
-
+@media only screen and (max-width:1024px) {
+    body{
+        overflow:auto;
+    }
+    .landing-overlay,.main-content{
+        height:600px;
+        
+    }
+    
+    .main-content a{
+        text-align: center;
+        width:45%;
+        margin-bottom:20px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .party{
+        margin:10px 0px;
+       
+    }
+    video{
+        display:none;
+    }
+    
+    .fill{
+        height:300px;
+    }
+    
+    .main-content{
+        top:30%;
+        position:absolute;
+        left:50%;
+        margin-left:-133px;
+        
+    }
+    
+    .main-content img{
+        padding:50px;
+    }
+    
+    .liberal{
+      background-color:#D71920;
+      opacity:1;
+    }
+    
+     .ndp{
+      background-color:#F37021;
+      opacity:1;
+    }
+    
+     .conservative{
+      background-color:#0C499C;
+      opacity:1;
+    }
+    .green-party{
+      background-color:#3D9B35;
+      opacity:1;
+    }
+}
 @media only screen and (max-width:567px){
     .mobile-bg{
         background-image:url('../img/canada.jpg');

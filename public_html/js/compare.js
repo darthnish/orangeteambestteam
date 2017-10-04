@@ -172,6 +172,7 @@ $(document).ready(function(){
               resultsDiv.appendChild(conservativeImg);
             }
              
+           
             resultsP.innerHTML+=".";  
             
             resultsDiv.appendChild(resultsP);
