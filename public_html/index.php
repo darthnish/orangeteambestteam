@@ -41,34 +41,34 @@
                    <div class="main-content liberal-align">
                         <img class ="party-logo" src ="img/logo/liberal_white.svg" alt="Liberal Party">
                         <!--<p>Lorem Ipsum is simply dummy dummy</p>-->
-                        <a class="nav-link nav-a e temp-size" href="#">Learn More</a>
+                        <a class="nav-link nav-a e temp-size" href="parties.php?party=liberal">Learn More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 fill party">
                 <div class="landing-overlay conservative">
                    <div class="main-content">
-                        <img class ="party-logo" src ="img/logo/conservative_white.png" alt="Liberal Party">
+                        <img class ="party-logo" src ="img/logo/conservative_white.png" alt="Conservative">
                         <!--<p>Lorem Ipsum is simply dummy dummy</p>-->
-                        <a class="nav-link nav-a  temp-size" href="#">Learn More</a>
+                        <a class="nav-link nav-a  temp-size" href="parties.php?party=conservative">Learn More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 fill party">
                 <div class="landing-overlay green-party">
                    <div class="main-content ">
-                        <img class ="party-logo" src ="img/logo/green_white.svg" alt="Liberal Party">
+                        <img class ="party-logo" src ="img/logo/green_white.svg" alt="Green Party">
                         <!--<p>Lorem Ipsum is simply dummy dummy</p>-->
-                        <a class="nav-link nav-a  temp-size" href="#">Learn More</a>
+                        <a class="nav-link nav-a  temp-size" href="parties.php?party=green">Learn More</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 fill party">
                 <div class="landing-overlay ndp">
                    <div class="main-content">
-                        <img class ="party-logo" src ="img/logo/ndp_white.svg" alt="Liberal Party">
+                        <img class ="party-logo" src ="img/logo/ndp_white.svg" alt="LNDP">
                         <!--<p>Lorem Ipsum is simply dummy dummy</p>-->
-                        <a class="nav-link nav-a  temp-size" href="#">Learn More</a>
+                        <a class="nav-link nav-a  temp-size" href="parties.php?party=ndp">Learn More</a>
                     </div>
                 </div>
             </div>

@@ -138,6 +138,12 @@ function showMpInfo(province) {
     }
     $( "#display-info" ).append(info);
 }
+
+$('#province').change(function() {
+   showMpInfo($(this).val()); 
+/*   $('#mp-modal').dialog('open');*/
+   console.log($(this).val());
+});
 //////////////////////////////////////////////////////////////
 
 // When change select box

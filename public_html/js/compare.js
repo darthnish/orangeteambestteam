@@ -16,6 +16,17 @@ $(function () {
 
 //Enables Smooth Scrolling
 $(document).ready(function(){
+     var topics = ["Health","Education","Economy","Environment","Jobs","Foreign Policy","Families","Social Issues","Housing"];
+     var checkLocalStorage;
+     for(var i=0;i<topics.length;i+=1){
+         checkLocalStorage = localStorage.getItem(topics[i]);
+         if(checkLocalStorage!== "undefined") {
+            $('input[name="' + topics[i] + '"][value="' + checkLocalStorage + '"]').attr('checked', true);
+             console.log("working2");
+        }
+        console.log("working");
+     }
+    
     $('.flex-icons a[href^="#"], .solid-button').on('click',function (e) {
         e.preventDefault();
 
@@ -53,7 +64,7 @@ $(document).ready(function(){
     
     //calculate scores
     
-    var topics = ["Health","Education","Economy","Environment","Jobs","Foreign Policy","Families","Social Issues","Housing"];
+    
     $('.results').click(function() {
         
         var partyAlignment = document.getElementById('party-alignment');
@@ -76,6 +87,8 @@ $(document).ready(function(){
         var unselected =0;
         for(var i=0;i<topics.length;i+=1){
             selectedParty = $('input[name="' + topics[i] + '"]:checked').val();
+            
+            localStorage.setItem(topics[i],selectedParty);
             if(selectedParty === "ndp"){
                 ndp+=1;
             }
